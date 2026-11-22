@@ -1,0 +1,107 @@
+- 2026-10-21 15:55 v2-1 started
+   coords               features                                          evaluation                model    n     R2   RMSE  ubRMSE   bias  site_median_r
+0   paper  paper16 (+lag prevS1)                  random 20% test rows (15 stations)                   RF  581  0.770  5.413   5.410  0.190          0.663
+1   paper  paper16 (+lag prevS1)                  random 20% test rows (15 stations)                  XGB  581  0.756  5.574   5.573  0.133          0.677
+2   paper  paper16 (+lag prevS1)                  random 20% test rows (15 stations)                 LGBM  581  0.789  5.186   5.183  0.168          0.654
+3   paper  paper16 (+lag prevS1)                  random 20% test rows (15 stations)             Ensemble  581  0.780  5.292   5.290  0.164          0.694
+4   paper  paper16 (+lag prevS1)  random 20% test rows (15 stations) [rows with lag]  Persistence(prevS1)  567  0.744  5.691   5.690  0.110          0.634
+5   paper  paper16 (+lag prevS1)  random 20% test rows (15 stations) [rows with lag]             Ensemble  567  0.792  5.127   5.122  0.232          0.684
+6   paper  paper16 (+lag prevS1)                     Shagbark Hills (unseen station)                   RF  166  0.208  7.428   7.186 -1.880          0.575
+7   paper  paper16 (+lag prevS1)                     Shagbark Hills (unseen station)                  XGB  166  0.234  7.307   6.948 -2.262          0.612
+8   paper  paper16 (+lag prevS1)                     Shagbark Hills (unseen station)                 LGBM  166  0.310  6.935   6.718 -1.722          0.627
+9   paper  paper16 (+lag prevS1)                     Shagbark Hills (unseen station)             Ensemble  166  0.269  7.139   6.866 -1.955          0.612
+10  paper  paper16 (+lag prevS1)     Shagbark Hills (unseen station) [rows with lag]  Persistence(prevS1)  156  0.268  7.087   7.084  0.213          0.636
+11  paper  paper16 (+lag prevS1)     Shagbark Hills (unseen station) [rows with lag]             Ensemble  156  0.410  6.361   6.169 -1.554          0.685
+12  paper         paper16 no lag                  random 20% test rows (15 stations)                   RF  581  0.746  5.679   5.678  0.118          0.699
+13  paper         paper16 no lag                  random 20% test rows (15 stations)                  XGB  581  0.764  5.478   5.478  0.001          0.713
+14  paper         paper16 no lag                  random 20% test rows (15 stations)                 LGBM  581  0.761  5.517   5.517 -0.035          0.687
+15  paper         paper16 no lag                  random 20% test rows (15 stations)             Ensemble  581  0.765  5.463   5.463  0.028          0.727
+16  paper         paper16 no lag                     Shagbark Hills (unseen station)                   RF  166  0.026  8.240   7.883 -2.398          0.492
+17  paper         paper16 no lag                     Shagbark Hills (unseen station)                  XGB  166  0.007  8.319   7.810 -2.865          0.483
+18  paper         paper16 no lag                     Shagbark Hills (unseen station)                 LGBM  166  0.026  8.241   7.560 -3.279          0.513
+19  paper         paper16 no lag                     Shagbark Hills (unseen station)             Ensemble  166  0.045  8.160   7.647 -2.847          0.504
+20   nrcs  paper16 (+lag prevS1)                  random 20% test rows (15 stations)                   RF  560  0.776  5.310   5.309  0.072          0.682
+21   nrcs  paper16 (+lag prevS1)                  random 20% test rows (15 stations)                  XGB  560  0.792  5.106   5.106  0.019          0.731
+22   nrcs  paper16 (+lag prevS1)                  random 20% test rows (15 stations)                 LGBM  560  0.798  5.031   5.027 -0.194          0.711
+23   nrcs  paper16 (+lag prevS1)                  random 20% test rows (15 stations)             Ensemble  560  0.797  5.044   5.044 -0.034          0.719
+24   nrcs  paper16 (+lag prevS1)  random 20% test rows (15 stations) [rows with lag]  Persistence(prevS1)  539  0.746  5.567   5.567 -0.037          0.697
+25   nrcs  paper16 (+lag prevS1)  random 20% test rows (15 stations) [rows with lag]             Ensemble  539  0.820  4.687   4.687  0.020          0.741
+26   nrcs  paper16 (+lag prevS1)                     Shagbark Hills (unseen station)                   RF  170  0.512  5.856   5.846  0.340          0.717
+27   nrcs  paper16 (+lag prevS1)                     Shagbark Hills (unseen station)                  XGB  170  0.417  6.396   6.386  0.348          0.652
+28   nrcs  paper16 (+lag prevS1)                     Shagbark Hills (unseen station)                 LGBM  170  0.434  6.301   6.283  0.469          0.675
+29   nrcs  paper16 (+lag prevS1)                     Shagbark Hills (unseen station)             Ensemble  170  0.478  6.054   6.041  0.386          0.695
+30   nrcs  paper16 (+lag prevS1)     Shagbark Hills (unseen station) [rows with lag]  Persistence(prevS1)  161  0.503  5.862   5.862  0.000          0.754
+31   nrcs  paper16 (+lag prevS1)     Shagbark Hills (unseen station) [rows with lag]             Ensemble  161  0.513  5.803   5.801  0.146          0.718
+32   nrcs         paper16 no lag                  random 20% test rows (15 stations)                   RF  560  0.778  5.278   5.278  0.053          0.647
+33   nrcs         paper16 no lag                  random 20% test rows (15 stations)                  XGB  560  0.767  5.406   5.406 -0.039          0.617
+34   nrcs         paper16 no lag                  random 20% test rows (15 stations)                 LGBM  560  0.763  5.452   5.451 -0.102          0.610
+35   nrcs         paper16 no lag                  random 20% test rows (15 stations)             Ensemble  560  0.779  5.263   5.263 -0.029          0.624
+36   nrcs         paper16 no lag                     Shagbark Hills (unseen station)                   RF  170  0.028  8.262   8.134 -1.449          0.371
+37   nrcs         paper16 no lag                     Shagbark Hills (unseen station)                  XGB  170  0.090  7.990   7.811 -1.682          0.423
+38   nrcs         paper16 no lag                     Shagbark Hills (unseen station)                 LGBM  170  0.050  8.166   8.100 -1.039          0.417
+39   nrcs         paper16 no lag                     Shagbark Hills (unseen station)             Ensemble  170  0.103  7.935   7.813 -1.390          0.425
+- 2026-10-21 16:05 v2-1 fix ladder: S0 paper as published done
+- 2026-10-21 16:15 v2-1 fix ladder: S1 + corrected coordinates done
+- 2026-10-21 16:21 v2-1 fix ladder: S2 + SAR indices in linear units done
+- 2026-10-21 16:27 v2-1 fix ladder: S3 + 50 m field-scale SAR mean done
+- 2026-10-21 16:34 v2-1 fix ladder: S4 + Sentinel-2 SCL cloud mask done
+- 2026-10-21 16:41 v2-1 fix ladder: S5 + no row-mean fill (NaN-aware) done
+- 2026-10-21 16:49 v2-1 fix ladder: S6 + consistent 1-day lag done
+                                 step               protocol                      variant     n     R2    RMSE  ubRMSE  site_median_r
+0               S0 paper as published            random80/20                     with lag   614  0.780   5.161   5.158          0.657
+1               S0 paper as published            random80/20  persistence (SM_lag_prevS1)   592  0.713   5.861   5.859          0.639
+2               S0 paper as published            random80/20                       no lag   614  0.777   5.190   5.176          0.671
+3               S0 paper as published  leave-one-station-out                     with lag  3070  0.497   8.195   7.958          0.653
+4               S0 paper as published  leave-one-station-out  persistence (SM_lag_prevS1)  2975  0.739   5.848   5.848          0.643
+5               S0 paper as published  leave-one-station-out                       no lag  3070 -0.389  13.622  13.338          0.482
+6          S1 + corrected coordinates            random80/20                     with lag   594  0.806   4.968   4.953          0.792
+7          S1 + corrected coordinates            random80/20  persistence (SM_lag_prevS1)   578  0.756   5.507   5.494          0.746
+8          S1 + corrected coordinates            random80/20                       no lag   594  0.747   5.677   5.671          0.681
+9          S1 + corrected coordinates  leave-one-station-out                     with lag  2966  0.657   6.693   6.450          0.690
+10         S1 + corrected coordinates  leave-one-station-out  persistence (SM_lag_prevS1)  2872  0.744   5.730   5.730          0.682
+11         S1 + corrected coordinates  leave-one-station-out                       no lag  2966 -0.028  11.589  11.272          0.478
+12   S2 + SAR indices in linear units            random80/20                     with lag   594  0.806   4.971   4.952          0.799
+13   S2 + SAR indices in linear units            random80/20  persistence (SM_lag_prevS1)   578  0.756   5.507   5.494          0.746
+14   S2 + SAR indices in linear units            random80/20                       no lag   594  0.751   5.640   5.635          0.688
+15   S2 + SAR indices in linear units  leave-one-station-out                     with lag  2966  0.665   6.619   6.413          0.694
+16   S2 + SAR indices in linear units  leave-one-station-out  persistence (SM_lag_prevS1)  2872  0.744   5.730   5.730          0.682
+17   S2 + SAR indices in linear units  leave-one-station-out                       no lag  2966 -0.014  11.510  11.202          0.472
+18     S3 + 50 m field-scale SAR mean            random80/20                     with lag   594  0.812   4.893   4.882          0.829
+19     S3 + 50 m field-scale SAR mean            random80/20  persistence (SM_lag_prevS1)   578  0.756   5.507   5.494          0.746
+20     S3 + 50 m field-scale SAR mean            random80/20                       no lag   594  0.755   5.586   5.582          0.709
+21     S3 + 50 m field-scale SAR mean  leave-one-station-out                     with lag  2966  0.667   6.599   6.367          0.687
+22     S3 + 50 m field-scale SAR mean  leave-one-station-out  persistence (SM_lag_prevS1)  2872  0.744   5.730   5.730          0.682
+23     S3 + 50 m field-scale SAR mean  leave-one-station-out                       no lag  2966  0.032  11.246  10.774          0.531
+24     S4 + Sentinel-2 SCL cloud mask            random80/20                     with lag   594  0.811   4.912   4.900          0.821
+25     S4 + Sentinel-2 SCL cloud mask            random80/20  persistence (SM_lag_prevS1)   578  0.756   5.507   5.494          0.746
+26     S4 + Sentinel-2 SCL cloud mask            random80/20                       no lag   594  0.761   5.524   5.523          0.730
+27     S4 + Sentinel-2 SCL cloud mask  leave-one-station-out                     with lag  2966  0.667   6.594   6.330          0.705
+28     S4 + Sentinel-2 SCL cloud mask  leave-one-station-out  persistence (SM_lag_prevS1)  2872  0.744   5.730   5.730          0.682
+29     S4 + Sentinel-2 SCL cloud mask  leave-one-station-out                       no lag  2966  0.035  11.231  10.807          0.508
+30  S5 + no row-mean fill (NaN-aware)            random80/20                     with lag   594  0.837   4.556   4.539          0.850
+31  S5 + no row-mean fill (NaN-aware)            random80/20  persistence (SM_lag_prevS1)   578  0.756   5.507   5.494          0.746
+32  S5 + no row-mean fill (NaN-aware)            random80/20                       no lag   594  0.754   5.600   5.597          0.697
+33  S5 + no row-mean fill (NaN-aware)  leave-one-station-out                     with lag  2966  0.691   6.351   6.127          0.713
+34  S5 + no row-mean fill (NaN-aware)  leave-one-station-out  persistence (SM_lag_prevS1)  2872  0.744   5.730   5.730          0.682
+35  S5 + no row-mean fill (NaN-aware)  leave-one-station-out                       no lag  2966  0.032  11.250  10.768          0.525
+36          S6 + consistent 1-day lag            random80/20                     with lag   594  0.967   2.042   2.036          0.963
+37          S6 + consistent 1-day lag            random80/20       persistence (SM_lag1d)   589  0.967   2.029   2.024          0.973
+38          S6 + consistent 1-day lag            random80/20                       no lag   594  0.754   5.600   5.597          0.697
+39          S6 + consistent 1-day lag  leave-one-station-out                     with lag  2966  0.911   3.415   3.403          0.920
+40          S6 + consistent 1-day lag  leave-one-station-out       persistence (SM_lag1d)  2920  0.957   2.343   2.343          0.954
+41          S6 + consistent 1-day lag  leave-one-station-out                       no lag  2966  0.032  11.250  10.768          0.525
+- 2026-10-21 17:01 v2-1 daily loop paper: fold with 1 test stations done (12.1 min)
+- 2026-10-21 17:14 v2-1 daily loop nrcs: fold with 4 test stations done (24.8 min)
+- 2026-10-21 17:30 v2-1 daily loop nrcs: fold with 4 test stations done (40.5 min)
+- 2026-10-21 17:40 v2-1 daily loop nrcs: fold with 4 test stations done (50.6 min)
+- 2026-10-21 17:45 v2-1 daily loop nrcs: fold with 4 test stations done (55.7 min)
+  coords                               evaluation                                               method      n     R2    RMSE  ubRMSE   bias  site_median_r
+0   nrcs  4-fold leave-stations-out (16 stations)  drift-controlled loop (satellite reset + 1-day lag)  22855 -0.138  12.633  12.236  3.145          0.537
+1   nrcs  4-fold leave-stations-out (16 stations)             paper loop (recursive, no drift control)  22855 -0.345  13.729  12.374  5.947          0.491
+2   nrcs  4-fold leave-stations-out (16 stations)                      persistence (in-situ yesterday)  22589  0.958   2.414   2.414  0.019          0.947
+3   nrcs  4-fold leave-stations-out (16 stations)                      paper loop fed with in-situ lag  22855  0.742   6.013   5.650  2.057          0.873
+4  paper          Shagbark Hills (paper protocol)  drift-controlled loop (satellite reset + 1-day lag)   1155 -0.046   8.579   7.682 -3.820          0.508
+5  paper          Shagbark Hills (paper protocol)             paper loop (recursive, no drift control)   1155  0.051   8.171   7.580 -3.052          0.544
+6  paper          Shagbark Hills (paper protocol)                      persistence (in-situ yesterday)   1131  0.883   2.860   2.860  0.031          0.942
+7  paper          Shagbark Hills (paper protocol)                      paper loop fed with in-situ lag   1155  0.700   4.592   4.370 -1.410          0.854
+- 2026-10-21 17:45 v2-1 finished

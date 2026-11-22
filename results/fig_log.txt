@@ -1,0 +1,10 @@
+saved fig01_station_coordinates.png
+saved fig02_station_coverage.png
+saved fig03_exp1_protocols.png
+saved fig04_exp2a_models.png
+saved fig05_exp2b_transfer.png
+saved fig06_exp2c_calibration.png
+saved fig07_exp3a_learning_curve.png
+saved fig08_exp3c_cross_region.png
+saved fig09_exp4_lag.png
+saved fig10_exp4_satellite_only_series.png

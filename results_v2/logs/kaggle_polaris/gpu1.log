@@ -1,0 +1,12 @@
+leave-one-region-out: 33084 rows, 117 features, 9 folds, bags=1, out=/kaggle/working/results_v2/tables/v3_tabpfn_bag_polaris/leave-one-region-out
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+leave-one-region-out fold 0 bag 0 done (2.8 min)
+leave-one-region-out fold 1 bag 0 done (4.2 min)
+leave-one-region-out fold 2 bag 0 done (5.5 min)
+leave-one-region-out fold 3 bag 0 done (8.1 min)
+leave-one-region-out fold 4 bag 0 done (13.2 min)
+leave-one-region-out fold 5 bag 0 done (17.1 min)
+leave-one-region-out fold 6 bag 0 done (24.9 min)
+leave-one-region-out fold 7 bag 0 done (26.2 min)
+leave-one-region-out fold 8 bag 0 done (30.1 min)
+leave-one-region-out finished (30.1 min)

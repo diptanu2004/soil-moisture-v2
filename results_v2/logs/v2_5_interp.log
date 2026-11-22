@@ -1,0 +1,17 @@
+                               eval_set                                                 model       n     R2   RMSE  ubRMSE   bias  site_median_r
+0                common days (n=243215)                                    LGBM-daily satOnly  243215  0.628  7.918   7.901  0.522          0.802
+1                common days (n=243215)                                     LGBM-daily +lag1d  243215  0.969  2.270   2.263  0.174          0.973
+2                common days (n=243215)                           DailyLSTM satOnly (scratch)  243215  0.515  9.049   9.022  0.698          0.695
+3                common days (n=243215)              DailyLSTM satOnly (pretrained ERA5-Land)  243215  0.558  8.638   8.566  1.115          0.736
+4                common days (n=243215)                DailyLSTM satOnly (pretrained SMAP L4)  243215  0.567  8.545   8.527  0.547          0.742
+5                common days (n=243215)      Anchor hold-last (Hybrid(TabPFN+TempoSAR+Trees))  243215  0.599  8.226   8.195  0.718          0.680
+6                common days (n=243215)  Anchor linear interp (Hybrid(TabPFN+TempoSAR+Trees))  243215  0.626  7.939   7.912  0.658          0.747
+7                common days (n=243215)                                       Persistence(1d)  243215  0.975  2.051   2.051  0.019          0.965
+8   all labelled days with a prediction                                    LGBM-daily satOnly  251391  0.627  7.965   7.948  0.509          0.797
+9   all labelled days with a prediction                                     LGBM-daily +lag1d  251391  0.963  2.513   2.507  0.174          0.967
+10  all labelled days with a prediction                           DailyLSTM satOnly (scratch)  251391  0.516  9.080   9.056  0.664          0.692
+11  all labelled days with a prediction              DailyLSTM satOnly (pretrained ERA5-Land)  251391  0.557  8.682   8.617  1.059          0.733
+12  all labelled days with a prediction                DailyLSTM satOnly (pretrained SMAP L4)  251391  0.567  8.585   8.570  0.514          0.737
+13  all labelled days with a prediction      Anchor hold-last (Hybrid(TabPFN+TempoSAR+Trees))  248496  0.596  8.276   8.243  0.737          0.679
+14  all labelled days with a prediction  Anchor linear interp (Hybrid(TabPFN+TempoSAR+Trees))  246555  0.625  7.975   7.948  0.659          0.744
+- 2026-10-21 19:18 v2-5 finished

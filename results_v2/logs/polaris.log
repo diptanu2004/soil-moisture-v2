@@ -1,0 +1,20 @@
+208 stations, 4160 reads to do
+400/4160 reads, 0 failed
+fail 2085 ksat 5_15 RasterioIOError Read failed. See previous exception for details.
+C:\Users\dipta\Downloads\Document from ~Diptanu\soil_moisture_improvements\.venv\Lib\site-packages\rasterio\__init__.py:379: NotGeoreferencedWarning: Dataset has no geotransform, gcps, or rpcs. The identity matrix will be returned.
+  dataset = DatasetReader(path, driver=driver, sharing=sharing, thread_safe=thread_safe, **kwargs)
+fail 2085 clay 0_5 RasterioIOError Read failed. See previous exception for details.
+fail 2085 alpha 5_15 RasterioIOError Read failed. See previous exception for details.
+fail 2030 sand 0_5 RasterioIOError Read failed. See previous exception for details.
+fail 2085 ksat 0_5 IndexError index -91 is out of bounds for axis 1 with size 33
+800/4160 reads, 9 failed
+1200/4160 reads, 9 failed
+1600/4160 reads, 49 failed
+2000/4160 reads, 50 failed
+2400/4160 reads, 50 failed
+2800/4160 reads, 51 failed
+3200/4160 reads, 51 failed
+3600/4160 reads, 71 failed
+4000/4160 reads, 91 failed
+4160/4160 reads, 91 failed
+wrote ../data/raw_v2/polaris_stations.parquet: (204, 40), 91 failed reads, NaN share 0.3%

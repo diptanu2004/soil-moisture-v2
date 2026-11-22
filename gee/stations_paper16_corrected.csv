@@ -1,0 +1,17 @@
+name,scan_id,state,station_triplet,paper_lat,paper_lon,nrcs_lat,nrcs_lon,nrcs_elev_ft,county,offset_km,role
+Abrams,2092,KS,2092:KS:SCAN,39.88,-96.42,37.13,-97.09,1194,Cowley,311.3,train
+Ames,2031,IA,2031:IA:SCAN,42.01,-93.77,42.02,-93.73,1073,Boone,3.5,train
+Bushland #1,2006,TX,2006:TX:SCAN,35.19,-102.1,35.17,-102.1,3820,Randall,2.2,train
+Dexter,2048,MO,2048:MO:SCAN,36.79,-89.96,36.78,-89.93,305,Stoddard,2.9,train
+Fort Reno #1,2022,OK,2022:OK:SCAN,35.53,-98.03,35.55,-98.02,1400,Canadian,2.4,train
+Ku-Nesa,2147,KS,2147:KS:SCAN,39.12,-95.6,39.05,-95.19,1102,Jefferson,36.2,train
+Levelland,2105,TX,2105:TX:SCAN,33.58,-102.37,33.55,-102.37,3510,Hockley,3.3,train
+Mason #1,2004,IL,2004:IL:SCAN,40.23,-89.87,40.32,-89.9,570,Mason,10.3,train
+Mt Vernon,2060,MO,2060:MO:SCAN,37.37,-93.83,37.07,-93.88,1150,Lawrence,33.7,train
+Phillipsburg,2093,KS,2093:KS:SCAN,39.76,-99.32,39.79,-99.33,1986,Phillips,3.4,train
+Reese Center,2104,TX,2104:TX:SCAN,33.6,-102.04,33.62,-102.04,3333,Lubbock,2.2,train
+Riesel,2199,TX,2199:TX:SCAN,31.47,-96.92,31.48,-96.88,539,Falls,4.0,train
+Rogers Farm #1,2001,NE,2001:NE:SCAN,41.41,-96.47,40.85,-96.47,1215,Lancaster,62.3,train
+Selma,2176,AL,2176:AL:SCAN,32.42,-87.02,32.4,-86.89,140,Dallas,12.4,train
+Spickard,2047,MO,2047:MO:SCAN,40.25,-93.6,40.25,-93.72,911,Audrain,10.2,train
+Shagbark Hills,2068,IA,2068:IA:SCAN,41.67,-91.54,42.43,-95.77,1400,Woodbury,359.3,validation

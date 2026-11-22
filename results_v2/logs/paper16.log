@@ -1,0 +1,36 @@
+                            protocol                                               setting      n     R2    RMSE  ubRMSE  site_median_r
+0                 leave-stations-out                    BEFORE paper model, satellite-only   2845  0.193  10.100   9.826          0.536
+1                 leave-stations-out           BEFORE paper model + lag (previous S1 date)   2845  0.808   4.928   4.923          0.765
+2                 leave-stations-out                 persistence (lag at previous S1 date)   2845  0.747   5.658   5.658          0.684
+3                 leave-stations-out                  AFTER improved trees, satellite-only   2845  0.468   8.199   7.596          0.811
+4                 leave-stations-out                        AFTER TempoSAR, satellite-only   2845  0.523   7.762   7.238          0.769
+5                 leave-stations-out                       AFTER TabPFN v2, satellite-only   2845  0.570   7.376   6.575          0.800
+6                 leave-stations-out                 AFTER proposed hybrid, satellite-only   2845  0.548   7.558   6.903          0.813
+7                 leave-stations-out                AFTER TabPFN v2 + consistent 1-day lag   2845  0.970   1.957   1.957          0.969
+8                 leave-stations-out                       persistence (in-situ yesterday)   2845  0.956   2.362   2.362          0.954
+9               leave-one-region-out                    BEFORE paper model, satellite-only   2845  0.221   9.922   9.529          0.497
+10              leave-one-region-out           BEFORE paper model + lag (previous S1 date)   2845  0.804   4.984   4.980          0.757
+11              leave-one-region-out                 persistence (lag at previous S1 date)   2845  0.747   5.658   5.658          0.684
+12              leave-one-region-out                  AFTER improved trees, satellite-only   2845  0.565   7.420   7.121          0.821
+13              leave-one-region-out                        AFTER TempoSAR, satellite-only   2845  0.440   8.414   7.559          0.757
+14              leave-one-region-out                       AFTER TabPFN v2, satellite-only   2845  0.533   7.683   7.428          0.824
+15              leave-one-region-out                 AFTER proposed hybrid, satellite-only   2845  0.552   7.525   7.068          0.827
+16              leave-one-region-out                AFTER TabPFN v2 + consistent 1-day lag   2845  0.969   1.967   1.965          0.967
+17              leave-one-region-out                       persistence (in-situ yesterday)   2845  0.956   2.362   2.362          0.954
+18                 temporal(2022-23)                    BEFORE paper model, satellite-only   1114  0.539   7.155   6.721          0.554
+19                 temporal(2022-23)           BEFORE paper model + lag (previous S1 date)   1114  0.806   4.634   4.627          0.757
+20                 temporal(2022-23)                 persistence (lag at previous S1 date)   1114  0.728   5.488   5.488          0.660
+21                 temporal(2022-23)                  AFTER improved trees, satellite-only   1114  0.725   5.528   5.503          0.797
+22                 temporal(2022-23)                        AFTER TempoSAR, satellite-only   1114  0.590   6.740   6.128          0.768
+23                 temporal(2022-23)                       AFTER TabPFN v2, satellite-only   1114  0.685   5.907   5.906          0.796
+24                 temporal(2022-23)                 AFTER proposed hybrid, satellite-only   1114  0.721   5.563   5.456          0.813
+25                 temporal(2022-23)                AFTER TabPFN v2 + consistent 1-day lag   1114  0.973   1.742   1.742          0.960
+26                 temporal(2022-23)                       persistence (in-situ yesterday)   1114  0.960   2.115   2.114          0.947
+27  daily, 5-fold leave-stations-out                                    LGBM-daily satOnly  22855  0.177  10.738  10.281          0.785
+28  daily, 5-fold leave-stations-out                                     LGBM-daily +lag1d  22855  0.925   3.233   3.181          0.965
+29  daily, 5-fold leave-stations-out                           DailyLSTM satOnly (scratch)  22855  0.103  11.212  10.808          0.693
+30  daily, 5-fold leave-stations-out              DailyLSTM satOnly (pretrained ERA5-Land)  22855  0.158  10.863  10.000          0.750
+31  daily, 5-fold leave-stations-out                DailyLSTM satOnly (pretrained SMAP L4)  22855  0.332   9.673   9.099          0.723
+32  daily, 5-fold leave-stations-out                                       Persistence(1d)  22589  0.958   2.414   2.414          0.947
+33  daily, 5-fold leave-stations-out      Anchor hold-last (Hybrid(TabPFN+TempoSAR+Trees))  22650  0.415   9.033   8.240          0.656
+34  daily, 5-fold leave-stations-out  Anchor linear interp (Hybrid(TabPFN+TempoSAR+Trees))  22581  0.454   8.718   7.885          0.729

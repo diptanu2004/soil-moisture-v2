@@ -1,0 +1,48 @@
+# --- Secrets (never commit) ---
+kaggle.json
+.kaggle/
+*.env
+.env*
+credentials*.json
+service_account*.json
+.claude/settings.local.json
+
+# --- Python / environments ---
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# --- Colab / Kaggle transfer bundles (regenerable from src + data) ---
+colab/*.zip
+colab/*.bin
+
+# --- Raw downloads and extraction caches (large, re-fetchable via gee/) ---
+data/raw/
+data/raw_v2/ee_cache/
+data/raw_v2/ee_test/
+data/raw_v2/scan_hourly/
+data/raw_v2/*.out
+*.partial.parquet
+
+# --- Test / scratch runs ---
+data/processed_v2_test/
+data/processed_v2_test2/
+results_v2_test/
+
+# --- Per-fold checkpoints (final tables are kept) ---
+results_v2/tables/v3_polaris_ck/
+results_v2/tables/v4_trees_ck/
+
+# Large files: daily.parquet is 93 MB (GitHub warns above 50 MB, rejects above 100 MB).
+# Uncomment to keep it out of git, or track it with Git LFS instead.
+# data/processed_v2/daily.parquet

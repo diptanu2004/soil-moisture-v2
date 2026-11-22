@@ -1,0 +1,23 @@
+208 stations, 4160 reads to do
+fail 2057 theta_s 0_5 RasterioIOError Read failed. See previous exception for details.
+fail 2057 om 0_5 RasterioIOError Read failed. See previous exception for details.
+fail 2057 clay 5_15 RasterioIOError Read failed. See previous exception for details.
+fail 2057 silt 5_15 RasterioIOError Read failed. See previous exception for details.
+fail 2057 alpha 0_5 RasterioIOError CURL error: Failed to connect to hydrology.cee.duke.edu port 80 after 3 ms: Could not connect to server
+C:\Users\dipta\Downloads\Document from ~Diptanu\soil_moisture_improvements\.venv\Lib\site-packages\rasterio\__init__.py:379: NotGeoreferencedWarning: Dataset has no geotransform, gcps, or rpcs. The identity matrix will be returned.
+  dataset = DatasetReader(path, driver=driver, sharing=sharing, thread_safe=thread_safe, **kwargs)
+400/4160 reads, 232 failed
+800/4160 reads, 234 failed
+1200/4160 reads, 234 failed
+1600/4160 reads, 234 failed
+2000/4160 reads, 234 failed
+2400/4160 reads, 234 failed
+2800/4160 reads, 234 failed
+3200/4160 reads, 234 failed
+3600/4160 reads, 234 failed
+4000/4160 reads, 234 failed
+4160/4160 reads, 234 failed
+wrote ../data/raw_v2/polaris_stations_exact.parquet: (198, 40), 234 failed reads, NaN share 0.9%
+208 stations, 234 reads to do
+234/234 reads, 0 failed
+wrote ../data/raw_v2/polaris_stations_exact.parquet: (208, 40), 0 failed reads, NaN share 0.0%

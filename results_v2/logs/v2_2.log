@@ -1,0 +1,79 @@
+- 2026-10-21 15:55 v2-2 started: 33084 rows, 184 stations, 9 regions
+random80/20 paper16 as published (+lag prevS1) 0.4 min
+random80/20 paper16 as published, no lag 0.7 min
+random80/20 paper16 fixed (+lag 1d) 1.1 min
+random80/20 paper16 fixed, no lag 1.4 min
+random80/20 improved v1, satellite-only 2.1 min
+random80/20 improved v1 (+lag 1d) 2.9 min
+random80/20 improved v2, satellite-only 4.1 min
+random80/20 improved v2 (+lag 1d) 5.4 min
+- 2026-10-21 16:01 v2-2 protocol random80/20 done (5.4 min)
+leave-stations-out paper16 as published (+lag prevS1) 9.8 min
+leave-stations-out paper16 as published, no lag 14.0 min
+leave-stations-out paper16 fixed (+lag 1d) 18.6 min
+leave-stations-out paper16 fixed, no lag 22.5 min
+leave-stations-out improved v1, satellite-only 28.7 min
+leave-stations-out improved v1 (+lag 1d) 35.1 min
+leave-stations-out improved v2, satellite-only 46.1 min
+leave-stations-out improved v2 (+lag 1d) 57.9 min
+- 2026-10-21 16:53 v2-2 protocol leave-stations-out done (57.9 min)
+leave-one-region-out paper16 as published (+lag prevS1) 61.1 min
+leave-one-region-out paper16 as published, no lag 63.9 min
+leave-one-region-out paper16 fixed (+lag 1d) 67.1 min
+leave-one-region-out paper16 fixed, no lag 69.8 min
+leave-one-region-out improved v1, satellite-only 74.2 min
+leave-one-region-out improved v1 (+lag 1d) 79.1 min
+leave-one-region-out improved v2, satellite-only 88.6 min
+leave-one-region-out improved v2 (+lag 1d) 98.9 min
+- 2026-10-21 17:34 v2-2 protocol leave-one-region-out done (98.9 min)
+temporal(2022-23) paper16 as published (+lag prevS1) 99.2 min
+temporal(2022-23) paper16 as published, no lag 99.5 min
+temporal(2022-23) paper16 fixed (+lag 1d) 99.7 min
+temporal(2022-23) paper16 fixed, no lag 99.9 min
+temporal(2022-23) improved v1, satellite-only 100.3 min
+temporal(2022-23) improved v1 (+lag 1d) 100.7 min
+temporal(2022-23) improved v2, satellite-only 101.5 min
+temporal(2022-23) improved v2 (+lag 1d) 102.4 min
+- 2026-10-21 17:38 v2-2 protocol temporal(2022-23) done (102.4 min)
+                 protocol                            features                model      n     R2    RMSE  ubRMSE   bias  site_median_r
+3             random80/20  paper16 as published (+lag prevS1)             Ensemble   6617  0.892   4.020   4.020  0.015          0.839
+7             random80/20        paper16 as published, no lag             Ensemble   6617  0.790   5.613   5.613  0.006          0.677
+11            random80/20             paper16 fixed (+lag 1d)             Ensemble   6617  0.982   1.630   1.629  0.056          0.979
+15            random80/20               paper16 fixed, no lag             Ensemble   6617  0.804   5.433   5.433 -0.010          0.692
+19            random80/20         improved v1, satellite-only             Ensemble   6617  0.830   5.060   5.059 -0.059          0.715
+23            random80/20               improved v1 (+lag 1d)             Ensemble   6617  0.984   1.545   1.545  0.033          0.982
+27            random80/20         improved v2, satellite-only             Ensemble   6617  0.897   3.931   3.931 -0.017          0.854
+31            random80/20               improved v2 (+lag 1d)             Ensemble   6617  0.986   1.431   1.431  0.034          0.984
+32            random80/20                            baseline  Persistence(prevS1)   6617  0.856   4.647   4.646  0.106          0.799
+33            random80/20                            baseline      Persistence(1d)   6617  0.979   1.776   1.775  0.062          0.978
+37     leave-stations-out  paper16 as published (+lag prevS1)             Ensemble  33084  0.873   4.363   4.361  0.126          0.804
+41     leave-stations-out        paper16 as published, no lag             Ensemble  33084  0.303  10.230  10.177  1.035          0.578
+45     leave-stations-out             paper16 fixed (+lag 1d)             Ensemble  33084  0.978   1.799   1.798  0.051          0.968
+49     leave-stations-out               paper16 fixed, no lag             Ensemble  33084  0.317  10.127  10.054  1.210          0.593
+53     leave-stations-out         improved v1, satellite-only             Ensemble  33084  0.539   8.313   8.311  0.216          0.653
+57     leave-stations-out               improved v1 (+lag 1d)             Ensemble  33084  0.977   1.865   1.865 -0.049          0.969
+61     leave-stations-out         improved v2, satellite-only             Ensemble  33084  0.636   7.391   7.387  0.249          0.804
+65     leave-stations-out               improved v2 (+lag 1d)             Ensemble  33084  0.978   1.805   1.804  0.035          0.972
+66     leave-stations-out                            baseline  Persistence(prevS1)  33084  0.850   4.752   4.751  0.088          0.769
+67     leave-stations-out                            baseline      Persistence(1d)  33084  0.976   1.898   1.898  0.016          0.965
+71   leave-one-region-out  paper16 as published (+lag prevS1)             Ensemble  33084  0.864   4.511   4.503  0.268          0.795
+75   leave-one-region-out        paper16 as published, no lag             Ensemble  33084  0.153  11.274  11.217  1.133          0.503
+79   leave-one-region-out             paper16 fixed (+lag 1d)             Ensemble  33084  0.977   1.844   1.842  0.083          0.968
+83   leave-one-region-out               paper16 fixed, no lag             Ensemble  33084  0.156  11.255  11.173  1.361          0.521
+87   leave-one-region-out         improved v1, satellite-only             Ensemble  33084  0.512   8.555   8.511  0.867          0.617
+91   leave-one-region-out               improved v1 (+lag 1d)             Ensemble  33084  0.976   1.888   1.887  0.041          0.969
+95   leave-one-region-out         improved v2, satellite-only             Ensemble  33084  0.642   7.332   7.331  0.160          0.794
+99   leave-one-region-out               improved v2 (+lag 1d)             Ensemble  33084  0.979   1.791   1.791 -0.024          0.972
+100  leave-one-region-out                            baseline  Persistence(prevS1)  33084  0.850   4.752   4.751  0.088          0.769
+101  leave-one-region-out                            baseline      Persistence(1d)  33084  0.976   1.898   1.898  0.016          0.965
+105     temporal(2022-23)  paper16 as published (+lag prevS1)             Ensemble  11479  0.858   4.549   4.548  0.124          0.758
+109     temporal(2022-23)        paper16 as published, no lag             Ensemble  11479  0.636   7.278   7.238  0.753          0.579
+113     temporal(2022-23)             paper16 fixed (+lag 1d)             Ensemble  11479  0.978   1.784   1.783  0.071          0.972
+117     temporal(2022-23)               paper16 fixed, no lag             Ensemble  11479  0.647   7.173   7.133  0.751          0.601
+121     temporal(2022-23)         improved v1, satellite-only             Ensemble  11479  0.688   6.747   6.701  0.782          0.652
+125     temporal(2022-23)               improved v1 (+lag 1d)             Ensemble  11479  0.979   1.744   1.741  0.108          0.975
+129     temporal(2022-23)         improved v2, satellite-only             Ensemble  11479  0.795   5.470   5.467 -0.178          0.816
+133     temporal(2022-23)               improved v2 (+lag 1d)             Ensemble  11479  0.982   1.632   1.632  0.009          0.978
+134     temporal(2022-23)                            baseline  Persistence(prevS1)  11479  0.818   5.154   5.153  0.091          0.709
+135     temporal(2022-23)                            baseline      Persistence(1d)  11479  0.975   1.916   1.915  0.054          0.970
+- 2026-10-21 17:38 v2-2 finished

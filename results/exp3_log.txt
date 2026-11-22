@@ -1,0 +1,51 @@
+                      training  test_sites     n     R2   RMSE  ubRMSE   bias      r  site_median_r  site_median_ubRMSE  site_median_R2
+0             same-region only          13  1683  0.127  7.699   7.681 -0.534  0.422          0.542               5.999           0.042
+1  same-region + other regions          13  1683  0.124  7.713   7.632 -1.115  0.441          0.504               5.917           0.084
+2           other regions only          13  1683 -0.292  9.366   8.478 -3.981  0.276          0.456               6.263          -0.750
+test_region       N.Rockies&Plains  Northwest  South  Southwest  West
+train_region                                                         
+N.Rockies&Plains              0.65       0.46   0.09       0.34  0.35
+Northwest                     0.39       0.73   0.01       0.39  0.54
+South                         0.17       0.11   0.40       0.12  0.19
+Southwest                     0.50       0.64   0.41       0.60  0.55
+West                          0.28       0.71   0.27       0.41  0.67
+test_region       N.Rockies&Plains  Northwest  South  Southwest   West
+train_region                                                          
+N.Rockies&Plains              7.21      12.30   9.45      10.55  11.05
+Northwest                    11.01      10.08  11.03       8.80  11.70
+South                        10.26      10.41   8.65       8.20   8.79
+Southwest                     8.67       8.71   8.79       7.14   8.33
+West                          9.77       9.81  11.77       8.24   7.14
+satOnly 5
+satOnly 10
+satOnly 15
+satOnly 25
+satOnly 40
+satOnly 60
+satOnly all
++lag1d 5
++lag1d 10
++lag1d 15
++lag1d 25
++lag1d 40
++lag1d 60
++lag1d all
+                           R2          RMSE  ... site_median_r site_median_ubRMSE       
+                         mean    std   mean  ...           std               mean    std
+features n_train_sites                       ...                                        
+satOnly  5             -0.062  0.042  8.974  ...         0.014              5.457  0.093
+         10            -0.000  0.090  8.704  ...         0.029              5.172  0.032
+         15             0.048  0.037  8.496  ...         0.018              4.976  0.115
+         25             0.167  0.063  7.946  ...         0.018              4.905  0.061
+         40             0.223  0.024  7.675  ...         0.011              4.742  0.024
+         60             0.237  0.004  7.605  ...         0.003              4.667  0.061
+         all            0.221    NaN  7.684  ...           NaN              4.644    NaN
++lag1d   5              0.898  0.020  2.771  ...         0.004              1.678  0.051
+         10             0.906  0.009  2.664  ...         0.001              1.510  0.031
+         15             0.935  0.002  2.213  ...         0.001              1.443  0.006
+         25             0.947  0.004  2.000  ...         0.002              1.399  0.009
+         40             0.953  0.002  1.879  ...         0.001              1.325  0.016
+         60             0.957  0.001  1.797  ...         0.001              1.298  0.014
+         all            0.959    NaN  1.770  ...           NaN              1.238    NaN
+
+[14 rows x 8 columns]

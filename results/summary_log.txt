@@ -1,0 +1,8 @@
+                         eval_set                                          model     n     R2   RMSE  ubRMSE   bias      r  site_median_r  site_median_ubRMSE
+0  common rows (n=3923, 79 sites)    Paper features + paper RF/XGB/LGBM ensemble  3923  0.085  7.747   7.733  0.454  0.414          0.588               4.485
+1  common rows (n=3923, 79 sites)  Improved features + regularised tree ensemble  3923  0.207  7.215   7.194  0.545  0.480          0.665               4.114
+2  common rows (n=3923, 79 sites)         TempoSAR (Transformer over S1 history)  3923  0.204  7.228   7.211 -0.497  0.457          0.586               4.349
+3  common rows (n=3923, 79 sites)              Hybrid (TempoSAR + tree ensemble)  3923  0.250  7.015   7.015  0.024  0.500          0.647               4.157
+4     all rows (n=8641, 84 sites)  Improved features + regularised tree ensemble  8641  0.237  7.605   7.597  0.350  0.500          0.625               4.531
+5     all rows (n=8641, 84 sites)         TempoSAR (Transformer over S1 history)  8641  0.237  7.607   7.585 -0.579  0.492          0.558               5.028
+6     all rows (n=8641, 84 sites)              Hybrid (TempoSAR + tree ensemble)  8641  0.278  7.398   7.397 -0.114  0.528          0.619               4.754

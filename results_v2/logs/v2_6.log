@@ -1,0 +1,41 @@
+- 2026-10-21 17:52 v2-6 ablation started
+leave-stations-out all improved v2 features 6.1 min
+leave-stations-out without Sentinel-1 10.5 min
+leave-stations-out without SMAP + ERA5-Land 15.3 min
+leave-stations-out without optical / LST 19.6 min
+leave-stations-out Sentinel-1 + static only 21.9 min
+leave-stations-out SMAP + ERA5-Land + static only 23.9 min
+- 2026-10-21 18:16 v2-6 leave-stations-out done (23.9 min)
+leave-one-region-out all improved v2 features 29.1 min
+leave-one-region-out without Sentinel-1 32.8 min
+leave-one-region-out without SMAP + ERA5-Land 36.8 min
+leave-one-region-out without optical / LST 40.6 min
+leave-one-region-out Sentinel-1 + static only 42.6 min
+leave-one-region-out SMAP + ERA5-Land + static only 44.4 min
+- 2026-10-21 18:36 v2-6 leave-one-region-out done (44.4 min)
+                protocol                                            model      n     R2    RMSE  ubRMSE   bias      r  site_median_r
+0     leave-stations-out                         SMAP L4 surface SM (raw)  33084  0.366   9.754   9.721  0.801  0.676          0.722
+1     leave-stations-out    SMAP L4 surface SM (raw) + linear calibration  33084  0.438   9.184   9.184  0.052  0.662          0.722
+2     leave-stations-out                                SMAP L3E SM (raw)  30065  0.348   9.946   9.692  2.232  0.672          0.676
+3     leave-stations-out           SMAP L3E SM (raw) + linear calibration  30065  0.448   9.151   9.151  0.012  0.669          0.676
+4     leave-stations-out                       ERA5-Land layer-1 SM (raw)  33084 -0.039  12.485  10.720  6.400  0.666          0.733
+5     leave-stations-out  ERA5-Land layer-1 SM (raw) + linear calibration  33084  0.435   9.205   9.205  0.026  0.660          0.733
+6     leave-stations-out                         all improved v2 features  33084  0.636   7.391   7.387  0.249  0.799          0.804
+7     leave-stations-out                               without Sentinel-1  33084  0.633   7.417   7.413  0.258  0.797          0.799
+8     leave-stations-out                         without SMAP + ERA5-Land  33084  0.602   7.726   7.719  0.330  0.778          0.753
+9     leave-stations-out                            without optical / LST  33084  0.634   7.412   7.409  0.218  0.798          0.798
+10    leave-stations-out                         Sentinel-1 + static only  33084  0.552   8.198   8.184  0.478  0.745          0.621
+11    leave-stations-out                   SMAP + ERA5-Land + static only  33084  0.625   7.501   7.496  0.268  0.793          0.783
+12  leave-one-region-out                         SMAP L4 surface SM (raw)  33084  0.366   9.754   9.721  0.801  0.676          0.722
+13  leave-one-region-out    SMAP L4 surface SM (raw) + linear calibration  33084  0.398   9.505   9.499  0.337  0.632          0.722
+14  leave-one-region-out                                SMAP L3E SM (raw)  30065  0.348   9.946   9.692  2.232  0.672          0.676
+15  leave-one-region-out           SMAP L3E SM (raw) + linear calibration  30065  0.411   9.453   9.451  0.173  0.641          0.676
+16  leave-one-region-out                       ERA5-Land layer-1 SM (raw)  33084 -0.039  12.485  10.720  6.400  0.666          0.733
+17  leave-one-region-out  ERA5-Land layer-1 SM (raw) + linear calibration  33084  0.408   9.425   9.425  0.022  0.639          0.733
+18  leave-one-region-out                         all improved v2 features  33084  0.642   7.332   7.331  0.160  0.802          0.794
+19  leave-one-region-out                               without Sentinel-1  33084  0.642   7.330   7.325  0.266  0.802          0.790
+20  leave-one-region-out                         without SMAP + ERA5-Land  33084  0.589   7.857   7.833  0.622  0.770          0.737
+21  leave-one-region-out                            without optical / LST  33084  0.640   7.351   7.351  0.074  0.801          0.789
+22  leave-one-region-out                         Sentinel-1 + static only  33084  0.478   8.850   8.793  0.999  0.699          0.582
+23  leave-one-region-out                   SMAP + ERA5-Land + static only  33084  0.630   7.450   7.449  0.121  0.795          0.766
+- 2026-10-21 18:36 v2-6 finished

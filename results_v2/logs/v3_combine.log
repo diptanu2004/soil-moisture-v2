@@ -1,0 +1,95 @@
+leave-stations-out: bagging ok; station-mean ok; POLARIS trees ok; station-mean ok; v4 rows: 6
+leave-one-region-out: bagging ok; station-mean ok; POLARIS trees ok; station-mean ok; v4 rows: 6
+temporal(2022-23): bagging ok; station-mean / POLARIS not applied (temporal: stations seen in training)
+                protocol                                                                           model     R2   RMSE  ubRMSE   bias  site_median_r  R2_lo  R2_hi  dR2_vs_head  dR2_lo  dR2_hi  P_better
+0     leave-stations-out                                                                           Trees  0.636  7.391   7.387  0.249          0.804  0.556  0.699       -0.012  -0.028   0.005     0.067
+1     leave-stations-out                                                                        TempoSAR  0.621  7.537   7.537  0.060          0.765  0.549  0.683       -0.025  -0.044  -0.006     0.005
+2     leave-stations-out                                                                          TabPFN  0.614  7.612   7.447  1.579          0.801  0.536  0.678       -0.033  -0.059  -0.009     0.002
+3     leave-stations-out                                                   Hybrid(TabPFN+TempoSAR+Trees)  0.647  7.277   7.250  0.629          0.810  0.574  0.706        0.000   0.000   0.000     0.000
+4     leave-stations-out                                                              TabPFN-bag0(rerun)  0.613  7.622   7.455  1.586          0.802  0.535  0.677       -0.034  -0.060  -0.010     0.002
+5     leave-stations-out                                                                     TabPFN-bag5  0.629  7.464   7.265  1.712          0.804  0.552  0.693       -0.018  -0.043   0.004     0.058
+6     leave-stations-out                                              Hybrid(TabPFN-bag5+TempoSAR+Trees)  0.651  7.241   7.210  0.674          0.811  0.579  0.709        0.003  -0.001   0.007     0.953
+7     leave-stations-out                               Hybrid(TabPFN+TempoSAR+Trees) +StationMean(w=0.5)  0.648  7.265   7.253  0.427          0.810  0.578  0.705        0.001  -0.009   0.012     0.576
+8     leave-stations-out                            Hybrid(TabPFN+TempoSAR+Trees) +StationMean(w nested)  0.649  7.259   7.246  0.434          0.810  0.578  0.705        0.002  -0.008   0.012     0.634
+9     leave-stations-out                          Hybrid(TabPFN+TempoSAR+Trees) +StationMean(w,a nested)  0.648  7.264   7.251  0.434          0.810  0.578  0.704        0.001  -0.008   0.011     0.591
+10    leave-stations-out                                                       Trees +StationMean(w=0.5)  0.643  7.324   7.320  0.237          0.804  0.570  0.702       -0.005  -0.018   0.009     0.257
+11    leave-stations-out                                                    Trees +StationMean(w nested)  0.643  7.319   7.317  0.208          0.804  0.570  0.702       -0.004  -0.018   0.009     0.259
+12    leave-stations-out                                                  Trees +StationMean(w,a nested)  0.643  7.322   7.319  0.208          0.804  0.570  0.702       -0.004  -0.018   0.009     0.241
+13    leave-stations-out                          Hybrid(TabPFN-bag5+TempoSAR+Trees) +StationMean(w=0.5)  0.650  7.246   7.232  0.449          0.811  0.578  0.707        0.003  -0.008   0.014     0.715
+14    leave-stations-out                       Hybrid(TabPFN-bag5+TempoSAR+Trees) +StationMean(w nested)  0.651  7.235   7.221  0.449          0.811  0.580  0.707        0.004  -0.006   0.014     0.783
+15    leave-stations-out                     Hybrid(TabPFN-bag5+TempoSAR+Trees) +StationMean(w,a nested)  0.651  7.240   7.226  0.449          0.811  0.580  0.707        0.004  -0.006   0.014     0.748
+16    leave-stations-out                                                                   Trees+POLARIS  0.669  7.052   7.052  0.060          0.807  0.611  0.718        0.021  -0.013   0.057     0.890
+17    leave-stations-out                                           Hybrid(TabPFN+TempoSAR+Trees+POLARIS)  0.666  7.078   7.055  0.566          0.808  0.602  0.718        0.019   0.006   0.034     1.000
+18    leave-stations-out                                      Hybrid(TabPFN-bag5+TempoSAR+Trees+POLARIS)  0.669  7.044   7.017  0.611          0.812  0.604  0.720        0.022   0.009   0.037     1.000
+19    leave-stations-out                                                                  TabPFN+POLARIS  0.594  7.804   7.555  1.954          0.791  0.518  0.659       -0.052  -0.108  -0.004     0.016
+20    leave-stations-out                                   Hybrid(TabPFN+POLARIS+TempoSAR+Trees+POLARIS)  0.668  7.054   7.020  0.692          0.809  0.607  0.719        0.021   0.000   0.046     0.976
+21    leave-stations-out                       Hybrid(TabPFN+TempoSAR+Trees) +StationMean+POLARIS(w=0.5)  0.665  7.092   7.082  0.374          0.810  0.598  0.720        0.018   0.004   0.033     0.995
+22    leave-stations-out                    Hybrid(TabPFN+TempoSAR+Trees) +StationMean+POLARIS(w nested)  0.662  7.125   7.122  0.200          0.810  0.595  0.716        0.015  -0.006   0.036     0.906
+23    leave-stations-out                  Hybrid(TabPFN+TempoSAR+Trees) +StationMean+POLARIS(w,a nested)  0.661  7.130   7.128  0.200          0.810  0.594  0.716        0.014  -0.007   0.036     0.898
+24    leave-stations-out               Hybrid(TabPFN+TempoSAR+Trees+POLARIS) +StationMean+POLARIS(w=0.5)  0.671  7.024   7.016  0.343          0.808  0.607  0.723        0.024   0.005   0.045     0.996
+25    leave-stations-out            Hybrid(TabPFN+TempoSAR+Trees+POLARIS) +StationMean+POLARIS(w nested)  0.666  7.080   7.077  0.203          0.808  0.601  0.719        0.019  -0.005   0.043     0.938
+26    leave-stations-out          Hybrid(TabPFN+TempoSAR+Trees+POLARIS) +StationMean+POLARIS(w,a nested)  0.665  7.087   7.084  0.203          0.808  0.601  0.718        0.018  -0.005   0.043     0.931
+27    leave-stations-out          Hybrid(TabPFN-bag5+TempoSAR+Trees+POLARIS) +StationMean+POLARIS(w=0.5)  0.673  7.006   6.996  0.365          0.812  0.610  0.724        0.026   0.007   0.047     1.000
+28    leave-stations-out       Hybrid(TabPFN-bag5+TempoSAR+Trees+POLARIS) +StationMean+POLARIS(w nested)  0.667  7.065   7.062  0.210          0.812  0.603  0.720        0.020  -0.003   0.045     0.954
+29    leave-stations-out     Hybrid(TabPFN-bag5+TempoSAR+Trees+POLARIS) +StationMean+POLARIS(w,a nested)  0.667  7.071   7.068  0.210          0.812  0.603  0.719        0.020  -0.003   0.045     0.945
+30    leave-stations-out                                      TabPFN+POLARIS +StationMean+POLARIS(w=0.5)  0.647  7.276   7.202  1.037          0.791  0.584  0.701        0.000  -0.029   0.031     0.494
+31    leave-stations-out                                   TabPFN+POLARIS +StationMean+POLARIS(w nested)  0.656  7.180   7.153  0.629          0.791  0.590  0.709        0.009  -0.017   0.039     0.719
+32    leave-stations-out                                 TabPFN+POLARIS +StationMean+POLARIS(w,a nested)  0.656  7.185   7.157  0.629          0.791  0.589  0.709        0.009  -0.017   0.038     0.711
+33    leave-stations-out       Hybrid(TabPFN+POLARIS+TempoSAR+Trees+POLARIS) +StationMean+POLARIS(w=0.5)  0.671  7.025   7.014  0.406          0.809  0.608  0.722        0.024   0.001   0.048     0.984
+34    leave-stations-out    Hybrid(TabPFN+POLARIS+TempoSAR+Trees+POLARIS) +StationMean+POLARIS(w nested)  0.667  7.071   7.066  0.249          0.809  0.603  0.719        0.020  -0.006   0.046     0.936
+35    leave-stations-out  Hybrid(TabPFN+POLARIS+TempoSAR+Trees+POLARIS) +StationMean+POLARIS(w,a nested)  0.666  7.078   7.073  0.249          0.809  0.602  0.718        0.019  -0.006   0.045     0.924
+36    leave-stations-out                                                            Trees+POLARIS(exact)  0.673  7.002   6.999  0.178          0.804  0.612  0.722        0.026  -0.008   0.064     0.934
+37    leave-stations-out                                                               Trees+POLARIS(Se)  0.668  7.063   7.061  0.183          0.811  0.602  0.717        0.020  -0.018   0.057     0.860
+38    leave-stations-out                                                        Trees+POLARIS(exact, Se)  0.658  7.166   7.160  0.300          0.805  0.592  0.710        0.011  -0.022   0.042     0.744
+39    leave-stations-out                               Hybrid(TabPFN-bag5+TempoSAR+Trees+POLARIS(exact))  0.670  7.035   7.005  0.650          0.814  0.607  0.722        0.023   0.010   0.039     0.999
+40    leave-stations-out                                  Hybrid(TabPFN-bag5+TempoSAR+Trees+POLARIS(Se))  0.669  7.045   7.015  0.652          0.810  0.605  0.720        0.022   0.008   0.038     1.000
+41    leave-stations-out                           Hybrid(TabPFN-bag5+TempoSAR+Trees+POLARIS(exact, Se))  0.665  7.094   7.060  0.691          0.810  0.596  0.717        0.018   0.005   0.031     0.995
+42  leave-one-region-out                                                                           Trees  0.642  7.332   7.331  0.160          0.794  0.578  0.693       -0.001  -0.017   0.014     0.433
+43  leave-one-region-out                                                                        TempoSAR  0.602  7.724   7.708  0.485          0.773  0.533  0.659       -0.041  -0.063  -0.022     0.000
+44  leave-one-region-out                                                                          TabPFN  0.603  7.721   7.624  1.218          0.796  0.528  0.662       -0.041  -0.063  -0.021     0.000
+45  leave-one-region-out                                                   Hybrid(TabPFN+TempoSAR+Trees)  0.643  7.316   7.290  0.621          0.807  0.577  0.697        0.000   0.000   0.000     0.000
+46  leave-one-region-out                                                              TabPFN-bag0(rerun)  0.603  7.722   7.623  1.233          0.796  0.530  0.662       -0.041  -0.063  -0.021     0.000
+47  leave-one-region-out                                                                     TabPFN-bag5  0.626  7.495   7.359  1.422          0.797  0.555  0.685       -0.018  -0.036  -0.000     0.022
+48  leave-one-region-out                                              Hybrid(TabPFN-bag5+TempoSAR+Trees)  0.648  7.264   7.231  0.689          0.806  0.583  0.702        0.005   0.001   0.010     0.988
+49  leave-one-region-out                               Hybrid(TabPFN+TempoSAR+Trees) +StationMean(w=0.5)  0.630  7.454   7.435  0.523          0.807  0.565  0.688       -0.014  -0.031   0.001     0.032
+50  leave-one-region-out                            Hybrid(TabPFN+TempoSAR+Trees) +StationMean(w nested)  0.635  7.400   7.361  0.757          0.807  0.569  0.691       -0.008  -0.025   0.006     0.126
+51  leave-one-region-out                          Hybrid(TabPFN+TempoSAR+Trees) +StationMean(w,a nested)  0.634  7.409   7.370  0.757          0.807  0.568  0.690       -0.009  -0.026   0.005     0.100
+52  leave-one-region-out                                                       Trees +StationMean(w=0.5)  0.629  7.463   7.457  0.293          0.794  0.566  0.685       -0.014  -0.032   0.001     0.048
+53  leave-one-region-out                                                    Trees +StationMean(w nested)  0.631  7.436   7.414  0.573          0.794  0.566  0.689       -0.012  -0.030   0.004     0.091
+54  leave-one-region-out                                                  Trees +StationMean(w,a nested)  0.631  7.441   7.419  0.573          0.794  0.566  0.688       -0.012  -0.030   0.004     0.079
+55  leave-one-region-out                          Hybrid(TabPFN-bag5+TempoSAR+Trees) +StationMean(w=0.5)  0.633  7.424   7.403  0.557          0.806  0.567  0.690       -0.011  -0.028   0.004     0.088
+56  leave-one-region-out                       Hybrid(TabPFN-bag5+TempoSAR+Trees) +StationMean(w nested)  0.638  7.372   7.327  0.809          0.806  0.571  0.694       -0.005  -0.022   0.009     0.251
+57  leave-one-region-out                     Hybrid(TabPFN-bag5+TempoSAR+Trees) +StationMean(w,a nested)  0.637  7.380   7.336  0.809          0.806  0.571  0.694       -0.006  -0.023   0.008     0.208
+58  leave-one-region-out                                                                   Trees+POLARIS  0.668  7.062   7.062  0.024          0.797  0.611  0.717        0.026  -0.002   0.057     0.959
+59  leave-one-region-out                                           Hybrid(TabPFN+TempoSAR+Trees+POLARIS)  0.659  7.154   7.131  0.576          0.805  0.597  0.711        0.016   0.007   0.026     0.999
+60  leave-one-region-out                                      Hybrid(TabPFN-bag5+TempoSAR+Trees+POLARIS)  0.663  7.107   7.078  0.644          0.807  0.600  0.715        0.021   0.010   0.032     1.000
+61  leave-one-region-out                                                                  TabPFN+POLARIS  0.604  7.709   7.605  1.260          0.792  0.536  0.660       -0.039  -0.071  -0.008     0.008
+62  leave-one-region-out                                   Hybrid(TabPFN+POLARIS+TempoSAR+Trees+POLARIS)  0.658  7.165   7.140  0.590          0.806  0.599  0.707        0.015  -0.002   0.034     0.952
+63  leave-one-region-out                       Hybrid(TabPFN+TempoSAR+Trees) +StationMean+POLARIS(w=0.5)  0.648  7.273   7.255  0.508          0.807  0.586  0.702        0.005  -0.010   0.020     0.724
+64  leave-one-region-out                    Hybrid(TabPFN+TempoSAR+Trees) +StationMean+POLARIS(w nested)  0.648  7.268   7.245  0.581          0.807  0.586  0.703        0.005  -0.015   0.025     0.682
+65  leave-one-region-out                  Hybrid(TabPFN+TempoSAR+Trees) +StationMean+POLARIS(w,a nested)  0.647  7.278   7.255  0.581          0.807  0.585  0.702        0.004  -0.016   0.024     0.644
+66  leave-one-region-out               Hybrid(TabPFN+TempoSAR+Trees+POLARIS) +StationMean+POLARIS(w=0.5)  0.653  7.217   7.201  0.485          0.805  0.593  0.706        0.010  -0.008   0.029     0.872
+67  leave-one-region-out            Hybrid(TabPFN+TempoSAR+Trees+POLARIS) +StationMean+POLARIS(w nested)  0.650  7.242   7.220  0.563          0.805  0.589  0.704        0.008  -0.013   0.029     0.762
+68  leave-one-region-out          Hybrid(TabPFN+TempoSAR+Trees+POLARIS) +StationMean+POLARIS(w,a nested)  0.649  7.253   7.231  0.563          0.805  0.588  0.703        0.007  -0.014   0.029     0.726
+69  leave-one-region-out          Hybrid(TabPFN-bag5+TempoSAR+Trees+POLARIS) +StationMean+POLARIS(w=0.5)  0.655  7.191   7.172  0.519          0.807  0.596  0.708        0.013  -0.006   0.032     0.914
+70  leave-one-region-out       Hybrid(TabPFN-bag5+TempoSAR+Trees+POLARIS) +StationMean+POLARIS(w nested)  0.652  7.222   7.197  0.596          0.807  0.592  0.707        0.010  -0.012   0.032     0.813
+71  leave-one-region-out     Hybrid(TabPFN-bag5+TempoSAR+Trees+POLARIS) +StationMean+POLARIS(w,a nested)  0.651  7.232   7.208  0.596          0.807  0.591  0.706        0.009  -0.013   0.031     0.787
+72  leave-one-region-out                                      TabPFN+POLARIS +StationMean+POLARIS(w=0.5)  0.629  7.466   7.420  0.828          0.792  0.567  0.685       -0.014  -0.040   0.013     0.160
+73  leave-one-region-out                                   TabPFN+POLARIS +StationMean+POLARIS(w nested)  0.637  7.382   7.360  0.569          0.792  0.577  0.692       -0.006  -0.033   0.023     0.356
+74  leave-one-region-out                                 TabPFN+POLARIS +StationMean+POLARIS(w,a nested)  0.636  7.391   7.369  0.569          0.792  0.576  0.691       -0.006  -0.034   0.022     0.332
+75  leave-one-region-out       Hybrid(TabPFN+POLARIS+TempoSAR+Trees+POLARIS) +StationMean+POLARIS(w=0.5)  0.652  7.231   7.214  0.492          0.806  0.593  0.705        0.009  -0.013   0.032     0.794
+76  leave-one-region-out    Hybrid(TabPFN+POLARIS+TempoSAR+Trees+POLARIS) +StationMean+POLARIS(w nested)  0.649  7.260   7.239  0.550          0.806  0.589  0.703        0.006  -0.019   0.032     0.683
+77  leave-one-region-out  Hybrid(TabPFN+POLARIS+TempoSAR+Trees+POLARIS) +StationMean+POLARIS(w,a nested)  0.648  7.271   7.250  0.550          0.806  0.588  0.702        0.005  -0.019   0.031     0.648
+78  leave-one-region-out                                                            Trees+POLARIS(exact)  0.669  7.052   7.051 -0.115          0.796  0.612  0.715        0.027  -0.006   0.061     0.931
+79  leave-one-region-out                                                               Trees+POLARIS(Se)  0.662  7.118   7.118  0.044          0.798  0.601  0.714        0.020  -0.011   0.052     0.890
+80  leave-one-region-out                                                        Trees+POLARIS(exact, Se)  0.665  7.092   7.092 -0.042          0.795  0.606  0.715        0.023  -0.010   0.058     0.908
+81  leave-one-region-out                               Hybrid(TabPFN-bag5+TempoSAR+Trees+POLARIS(exact))  0.664  7.105   7.080  0.597          0.805  0.606  0.715        0.021   0.007   0.034     1.000
+82  leave-one-region-out                                  Hybrid(TabPFN-bag5+TempoSAR+Trees+POLARIS(Se))  0.663  7.114   7.084  0.650          0.806  0.601  0.715        0.020   0.008   0.032     0.999
+83  leave-one-region-out                           Hybrid(TabPFN-bag5+TempoSAR+Trees+POLARIS(exact, Se))  0.663  7.109   7.082  0.622          0.805  0.603  0.716        0.020   0.007   0.033     1.000
+84     temporal(2022-23)                                                                           Trees  0.795  5.470   5.467 -0.178          0.816  0.745  0.834        0.002  -0.008   0.012     0.688
+85     temporal(2022-23)                                                                        TempoSAR  0.699  6.618   6.617  0.097          0.803  0.634  0.752       -0.093  -0.128  -0.064     0.000
+86     temporal(2022-23)                                                                          TabPFN  0.782  5.640   5.636 -0.225          0.826  0.725  0.828       -0.010  -0.029   0.009     0.149
+87     temporal(2022-23)                                                   Hybrid(TabPFN+TempoSAR+Trees)  0.792  5.500   5.499 -0.102          0.831  0.742  0.832        0.000   0.000   0.000     0.000
+88     temporal(2022-23)                                                              TabPFN-bag0(rerun)  0.782  5.640   5.636 -0.227          0.826  0.725  0.828       -0.010  -0.029   0.009     0.148
+89     temporal(2022-23)                                                                     TabPFN-bag5  0.793  5.494   5.488 -0.266          0.832  0.739  0.837        0.001  -0.017   0.019     0.523
+90     temporal(2022-23)                                              Hybrid(TabPFN-bag5+TempoSAR+Trees)  0.796  5.457   5.456 -0.116          0.834  0.747  0.834        0.003   0.001   0.005     1.000

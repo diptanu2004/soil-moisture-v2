@@ -1,0 +1,24 @@
+- 2026-10-21 15:55 v2-5 daily started: 186 stations, 251391 labelled days, 36 drivers, device cuda
+fold 0 7.4 min
+- 2026-10-21 16:03 v2-5 fold 0 done (7.4 min)
+fold 1 15.1 min
+- 2026-10-21 16:10 v2-5 fold 1 done (15.1 min)
+fold 2 22.3 min
+- 2026-10-21 16:18 v2-5 fold 2 done (22.3 min)
+fold 3 27.3 min
+- 2026-10-21 16:23 v2-5 fold 3 done (27.3 min)
+fold 4 33.0 min
+- 2026-10-21 16:28 v2-5 fold 4 done (33.0 min)
+                               eval_set                                     model       n     R2   RMSE  ubRMSE   bias  site_median_r
+0                common days (n=247686)                        LGBM-daily satOnly  247686  0.627  7.941   7.925  0.510          0.801
+1                common days (n=247686)                         LGBM-daily +lag1d  247686  0.970  2.271   2.264  0.174          0.973
+2                common days (n=247686)               DailyLSTM satOnly (scratch)  247686  0.514  9.066   9.041  0.665          0.692
+3                common days (n=247686)  DailyLSTM satOnly (pretrained ERA5-Land)  247686  0.557  8.661   8.596  1.063          0.734
+4                common days (n=247686)    DailyLSTM satOnly (pretrained SMAP L4)  247686  0.566  8.570   8.555  0.515          0.738
+5                common days (n=247686)                           Persistence(1d)  247686  0.975  2.048   2.048  0.020          0.965
+6   all labelled days with a prediction                        LGBM-daily satOnly  251391  0.627  7.965   7.948  0.509          0.797
+7   all labelled days with a prediction                         LGBM-daily +lag1d  251391  0.963  2.513   2.507  0.174          0.967
+8   all labelled days with a prediction               DailyLSTM satOnly (scratch)  251391  0.516  9.080   9.056  0.664          0.692
+9   all labelled days with a prediction  DailyLSTM satOnly (pretrained ERA5-Land)  251391  0.557  8.682   8.617  1.059          0.733
+10  all labelled days with a prediction    DailyLSTM satOnly (pretrained SMAP L4)  251391  0.567  8.585   8.570  0.514          0.737
+- 2026-10-21 16:28 v2-5 finished

@@ -1,0 +1,53 @@
+- 2026-10-21 17:38 v2-3 started (33084 rows)
+leave-stations-out fold 0 4.1 min
+leave-stations-out fold 1 8.3 min
+leave-stations-out fold 2 12.3 min
+leave-stations-out fold 3 17.9 min
+leave-stations-out fold 4 22.3 min
+leave-stations-out fold 5 27.0 min
+leave-stations-out fold 6 31.5 min
+leave-stations-out fold 7 36.1 min
+leave-stations-out fold 8 41.2 min
+leave-stations-out fold 9 45.6 min
+- 2026-10-21 18:23 v2-3 leave-stations-out done (45.6 min)
+leave-one-region-out fold 0 50.7 min
+leave-one-region-out fold 1 53.7 min
+leave-one-region-out fold 2 56.5 min
+leave-one-region-out fold 3 60.2 min
+leave-one-region-out fold 4 67.4 min
+leave-one-region-out fold 5 72.7 min
+leave-one-region-out fold 6 82.7 min
+leave-one-region-out fold 7 85.3 min
+leave-one-region-out fold 8 90.6 min
+- 2026-10-21 19:08 v2-3 leave-one-region-out done (90.6 min)
+temporal(2022-23) fold 0 99.8 min
+- 2026-10-21 19:17 v2-3 temporal(2022-23) done (99.8 min)
+                protocol                          model      n     R2   RMSE  ubRMSE   bias  site_median_r
+0     leave-stations-out                          Trees  33084  0.636  7.391   7.387  0.249          0.804
+1     leave-stations-out                       TempoSAR  33084  0.621  7.537   7.537  0.060          0.765
+2     leave-stations-out                         TabPFN  33084  0.614  7.612   7.447  1.579          0.801
+3     leave-stations-out         Hybrid(TempoSAR+Trees)  33084  0.643  7.316   7.314  0.155          0.802
+4     leave-stations-out           Hybrid(TabPFN+Trees)  33084  0.641  7.342   7.285  0.914          0.810
+5     leave-stations-out  Hybrid(TabPFN+TempoSAR+Trees)  33084  0.647  7.277   7.250  0.629          0.810
+6     leave-stations-out                  Trees(+lag1d)  33084  0.978  1.805   1.804  0.035          0.972
+7     leave-stations-out                 TabPFN(+lag1d)  33084  0.983  1.593   1.591 -0.092          0.975
+8     leave-stations-out                Persistence(1d)  33084  0.976  1.898   1.898  0.016          0.965
+9   leave-one-region-out                          Trees  33084  0.642  7.332   7.331  0.160          0.794
+10  leave-one-region-out                       TempoSAR  33084  0.602  7.724   7.708  0.485          0.773
+11  leave-one-region-out                         TabPFN  33084  0.603  7.721   7.624  1.218          0.796
+12  leave-one-region-out         Hybrid(TempoSAR+Trees)  33084  0.641  7.341   7.334  0.322          0.801
+13  leave-one-region-out           Hybrid(TabPFN+Trees)  33084  0.639  7.361   7.329  0.689          0.805
+14  leave-one-region-out  Hybrid(TabPFN+TempoSAR+Trees)  33084  0.643  7.316   7.290  0.621          0.807
+15  leave-one-region-out                  Trees(+lag1d)  33084  0.979  1.791   1.791 -0.024          0.972
+16  leave-one-region-out                 TabPFN(+lag1d)  33084  0.983  1.608   1.604 -0.116          0.975
+17  leave-one-region-out                Persistence(1d)  33084  0.976  1.898   1.898  0.016          0.965
+18     temporal(2022-23)                          Trees  11479  0.795  5.470   5.467 -0.178          0.816
+19     temporal(2022-23)                       TempoSAR  11479  0.699  6.618   6.617  0.097          0.803
+20     temporal(2022-23)                         TabPFN  11479  0.782  5.640   5.636 -0.225          0.826
+21     temporal(2022-23)         Hybrid(TempoSAR+Trees)  11479  0.775  5.726   5.726 -0.041          0.830
+22     temporal(2022-23)           Hybrid(TabPFN+Trees)  11479  0.795  5.460   5.456 -0.202          0.826
+23     temporal(2022-23)  Hybrid(TabPFN+TempoSAR+Trees)  11479  0.792  5.500   5.499 -0.102          0.831
+24     temporal(2022-23)                  Trees(+lag1d)  11479  0.982  1.632   1.632  0.009          0.978
+25     temporal(2022-23)                 TabPFN(+lag1d)  11479  0.983  1.575   1.574 -0.061          0.979
+26     temporal(2022-23)                Persistence(1d)  11479  0.975  1.916   1.915  0.054          0.970
+- 2026-10-21 19:17 v2-3 finished

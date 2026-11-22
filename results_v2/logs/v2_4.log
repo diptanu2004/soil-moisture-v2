@@ -1,0 +1,80 @@
+- 2026-10-21 19:18 v2-4 few-shot started
+fold 0 7.0 min
+- 2026-10-21 19:25 v2-4 fold 0 done (7.0 min)
+fold 1 14.2 min
+- 2026-10-21 19:32 v2-4 fold 1 done (14.2 min)
+fold 2 21.1 min
+- 2026-10-21 19:39 v2-4 fold 2 done (21.1 min)
+fold 3 28.8 min
+- 2026-10-21 19:47 v2-4 fold 3 done (28.8 min)
+fold 4 36.0 min
+- 2026-10-21 19:54 v2-4 fold 4 done (36.0 min)
+fold 5 43.4 min
+- 2026-10-21 20:01 v2-4 fold 5 done (43.4 min)
+fold 6 50.4 min
+- 2026-10-21 20:08 v2-4 fold 6 done (50.4 min)
+fold 7 57.6 min
+- 2026-10-21 20:15 v2-4 fold 7 done (57.6 min)
+fold 8 64.8 min
+- 2026-10-21 20:23 v2-4 fold 8 done (64.8 min)
+fold 9 72.0 min
+- 2026-10-21 20:30 v2-4 fold 9 done (72.0 min)
+     k                                method      n     R2    RMSE  ubRMSE   bias  site_median_r
+0    5                            Trees|none  32164  0.636   7.345   7.341  0.249          0.798
+1    5                            Trees|bias  32164  0.676   6.937   6.930  0.307          0.798
+2    5                          Trees|linear  32164  0.676   6.937   6.930  0.307          0.798
+3    5                         TempoSAR|none  32164  0.622   7.485   7.485  0.060          0.764
+4    5                         TempoSAR|bias  32164  0.658   7.120   7.116  0.212          0.764
+5    5                       TempoSAR|linear  32164  0.658   7.120   7.116  0.212          0.764
+6    5                           TabPFN|none  32164  0.614   7.562   7.395  1.577          0.799
+7    5                           TabPFN|bias  32164  0.667   7.032   7.028  0.215          0.799
+8    5                         TabPFN|linear  32164  0.667   7.032   7.028  0.215          0.799
+9    5           Hybrid(TempoSAR+Trees)|none  32164  0.644   7.267   7.265  0.155          0.798
+10   5           Hybrid(TempoSAR+Trees)|bias  32164  0.680   6.892   6.887  0.260          0.798
+11   5         Hybrid(TempoSAR+Trees)|linear  32164  0.680   6.892   6.887  0.260          0.798
+12   5             Hybrid(TabPFN+Trees)|none  32164  0.641   7.293   7.235  0.913          0.809
+13   5             Hybrid(TabPFN+Trees)|bias  32164  0.678   6.912   6.907  0.261          0.809
+14   5           Hybrid(TabPFN+Trees)|linear  32164  0.678   6.912   6.907  0.261          0.809
+15   5                           FT-TempoSAR  32164  0.739   6.216   6.196  0.501          0.743
+16   5                     TabPFN in-context  32164  0.734   6.275   6.146  1.265          0.802
+17   5        Hybrid(FT-TempoSAR+Trees|bias)  32164  0.739   6.223   6.209  0.404          0.797
+18   5  Hybrid(TabPFN in-context+Trees|bias)  32164  0.732   6.308   6.259  0.786          0.815
+19  10                            Trees|none  31244  0.636   7.311   7.307  0.246          0.806
+20  10                            Trees|bias  31244  0.724   6.366   6.360  0.289          0.806
+21  10                          Trees|linear  31244  0.163  11.087  10.558 -3.384          0.806
+22  10                         TempoSAR|none  31244  0.622   7.449   7.449  0.049          0.759
+23  10                         TempoSAR|bias  31244  0.709   6.542   6.542  0.104          0.759
+24  10                       TempoSAR|linear  31244  0.059  11.761  11.129 -3.801          0.759
+25  10                           TabPFN|none  31244  0.614   7.528   7.362  1.573          0.802
+26  10                           TabPFN|bias  31244  0.723   6.376   6.373  0.177          0.802
+27  10                         TabPFN|linear  31244  0.446   9.019   8.777 -2.076          0.802
+28  10           Hybrid(TempoSAR+Trees)|none  31244  0.644   7.232   7.230  0.147          0.799
+29  10           Hybrid(TempoSAR+Trees)|bias  31244  0.728   6.321   6.318  0.197          0.799
+30  10         Hybrid(TempoSAR+Trees)|linear  31244 -0.130  12.884  12.228 -4.057          0.799
+31  10             Hybrid(TabPFN+Trees)|none  31244  0.641   7.260   7.203  0.909          0.808
+32  10             Hybrid(TabPFN+Trees)|bias  31244  0.730   6.295   6.291  0.233          0.808
+33  10           Hybrid(TabPFN+Trees)|linear  31244  0.355   9.734   9.340 -2.744          0.808
+34  10                           FT-TempoSAR  31244  0.772   5.791   5.788  0.188          0.743
+35  10                     TabPFN in-context  31244  0.774   5.763   5.708  0.798          0.809
+36  10        Hybrid(FT-TempoSAR+Trees|bias)  31244  0.779   5.701   5.696  0.239          0.799
+37  10  Hybrid(TabPFN in-context+Trees|bias)  31244  0.774   5.766   5.740  0.544          0.819
+38  20                            Trees|none  29404  0.639   7.255   7.252  0.233          0.808
+39  20                            Trees|bias  29404  0.756   5.964   5.963  0.090          0.808
+40  20                          Trees|linear  29404  0.534   8.243   7.966 -2.118          0.808
+41  20                         TempoSAR|none  29404  0.625   7.394   7.394  0.029          0.767
+42  20                         TempoSAR|bias  29404  0.736   6.207   6.207 -0.003          0.767
+43  20                       TempoSAR|linear  29404  0.425   9.153   8.858 -2.303          0.767
+44  20                           TabPFN|none  29404  0.619   7.451   7.285  1.562          0.804
+45  20                           TabPFN|bias  29404  0.746   6.083   6.083  0.023          0.804
+46  20                         TabPFN|linear  29404  0.628   7.370   7.225 -1.455          0.804
+47  20           Hybrid(TempoSAR+Trees)|none  29404  0.647   7.176   7.175  0.131          0.805
+48  20           Hybrid(TempoSAR+Trees)|bias  29404  0.756   5.967   5.967  0.044          0.805
+49  20         Hybrid(TempoSAR+Trees)|linear  29404  0.503   8.515   8.185 -2.348          0.805
+50  20             Hybrid(TabPFN+Trees)|none  29404  0.645   7.193   7.137  0.897          0.806
+51  20             Hybrid(TabPFN+Trees)|bias  29404  0.756   5.959   5.959  0.056          0.806
+52  20           Hybrid(TabPFN+Trees)|linear  29404  0.596   7.673   7.459 -1.800          0.806
+53  20                           FT-TempoSAR  29404  0.779   5.677   5.672  0.243          0.739
+54  20                     TabPFN in-context  29404  0.798   5.432   5.427  0.247          0.811
+55  20        Hybrid(FT-TempoSAR+Trees|bias)  29404  0.796   5.455   5.452  0.166          0.804
+56  20  Hybrid(TabPFN in-context+Trees|bias)  29404  0.795   5.468   5.466  0.168          0.821
+- 2026-10-21 20:30 v2-4 finished

@@ -1,0 +1,99 @@
+[{"stream_name":"stdout","time":1.214341343,"data":"Sun Nov 22 09:55:17 2026       \n"}
+,{"stream_name":"stdout","time":1.214382887,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":1.214388301,"data":"| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |\n"}
+,{"stream_name":"stdout","time":1.214394089,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":1.214401525,"data":"| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n"}
+,{"stream_name":"stdout","time":1.214403896,"data":"| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n"}
+,{"stream_name":"stdout","time":1.214406148,"data":"|                                         |                        |               MIG M. |\n"}
+,{"stream_name":"stdout","time":1.214408501,"data":"|=========================================+========================+======================|\n"}
+,{"stream_name":"stdout","time":1.277772517,"data":"|   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":1.277791731,"data":"| N/A   52C    P8             10W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":1.277822349,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":1.277827089,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":1.2778311150000001,"data":"|   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |\n"}
+,{"stream_name":"stdout","time":1.277835251,"data":"| N/A   53C    P8             10W /   70W |       0MiB /  15360MiB |      0%      Default |\n"}
+,{"stream_name":"stdout","time":1.277839567,"data":"|                                         |                        |                  N/A |\n"}
+,{"stream_name":"stdout","time":1.2778437519999999,"data":"+-----------------------------------------+------------------------+----------------------+\n"}
+,{"stream_name":"stdout","time":1.278371737,"data":"\n"}
+,{"stream_name":"stdout","time":1.278378307,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":1.278381875,"data":"| Processes:                                                                              |\n"}
+,{"stream_name":"stdout","time":1.278385423,"data":"|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n"}
+,{"stream_name":"stdout","time":1.278388845,"data":"|        ID   ID                                                               Usage      |\n"}
+,{"stream_name":"stdout","time":1.278392298,"data":"|=========================================================================================|\n"}
+,{"stream_name":"stdout","time":1.280064229,"data":"|  No running processes found                                                             |\n"}
+,{"stream_name":"stdout","time":1.28007877,"data":"+-----------------------------------------------------------------------------------------+\n"}
+,{"stream_name":"stdout","time":11.063989724,"data":"torch 2.11.0+cu130 cuda True\n"}
+,{"stream_name":"stdout","time":73.292559079,"data":"1 min: 0 fold files\n"}
+,{"stream_name":"stdout","time":133.293082541,"data":"2 min: 4 fold files\n"}
+,{"stream_name":"stdout","time":193.293642273,"data":"3 min: 6 fold files\n"}
+,{"stream_name":"stdout","time":253.294193293,"data":"4 min: 10 fold files\n"}
+,{"stream_name":"stdout","time":313.294743011,"data":"5 min: 12 fold files\n"}
+,{"stream_name":"stdout","time":373.295344539,"data":"6 min: 14 fold files\n"}
+,{"stream_name":"stdout","time":433.295964791,"data":"7 min: 17 fold files\n"}
+,{"stream_name":"stdout","time":493.296549033,"data":"8 min: 19 fold files\n"}
+,{"stream_name":"stdout","time":553.297296956,"data":"9 min: 20 fold files\n"}
+,{"stream_name":"stdout","time":613.297887844,"data":"10 min: 22 fold files\n"}
+,{"stream_name":"stdout","time":673.298493686,"data":"11 min: 25 fold files\n"}
+,{"stream_name":"stdout","time":733.299162781,"data":"12 min: 28 fold files\n"}
+,{"stream_name":"stdout","time":793.299859367,"data":"13 min: 31 fold files\n"}
+,{"stream_name":"stdout","time":853.300442484,"data":"14 min: 33 fold files\n"}
+,{"stream_name":"stdout","time":913.301198575,"data":"15 min: 35 fold files\n"}
+,{"stream_name":"stdout","time":973.301935272,"data":"16 min: 37 fold files\n"}
+,{"stream_name":"stdout","time":1033.302591333,"data":"17 min: 38 fold files\n"}
+,{"stream_name":"stdout","time":1033.302631937,"data":"gpu0 exit 0\n"}
+,{"stream_name":"stdout","time":1033.302815386,"data":"leave-stations-out: device=cuda, 41 static features, 10 folds\n"}
+,{"stream_name":"stdout","time":1033.302828729,"data":"leave-stations-out fold 0 done (0.9 min)\n"}
+,{"stream_name":"stdout","time":1033.302834086,"data":"leave-stations-out fold 1 done (1.6 min)\n"}
+,{"stream_name":"stdout","time":1033.302838477,"data":"leave-stations-out fold 2 done (2.3 min)\n"}
+,{"stream_name":"stdout","time":1033.30284271,"data":"leave-stations-out fold 3 done (3.0 min)\n"}
+,{"stream_name":"stdout","time":1033.30284682,"data":"leave-stations-out fold 4 done (3.7 min)\n"}
+,{"stream_name":"stdout","time":1033.302850911,"data":"leave-stations-out fold 5 done (4.6 min)\n"}
+,{"stream_name":"stdout","time":1033.302855019,"data":"leave-stations-out fold 6 done (5.3 min)\n"}
+,{"stream_name":"stdout","time":1033.302859093,"data":"leave-stations-out fold 7 done (5.9 min)\n"}
+,{"stream_name":"stdout","time":1033.302863052,"data":"leave-stations-out fold 8 done (6.6 min)\n"}
+,{"stream_name":"stdout","time":1033.302867227,"data":"leave-stations-out fold 9 done (7.3 min)\n"}
+,{"stream_name":"stdout","time":1033.302871909,"data":"leave-stations-out finished (7.3 min)\n"}
+,{"stream_name":"stdout","time":1033.302876426,"data":"leave-one-region-out: device=cuda, 41 static features, 9 folds\n"}
+,{"stream_name":"stdout","time":1033.302880752,"data":"leave-one-region-out fold 0 done (1.7 min)\n"}
+,{"stream_name":"stdout","time":1033.302886089,"data":"leave-one-region-out fold 1 done (2.7 min)\n"}
+,{"stream_name":"stdout","time":1033.302890655,"data":"leave-one-region-out fold 2 done (3.4 min)\n"}
+,{"stream_name":"stdout","time":1033.302895779,"data":"leave-one-region-out fold 3 done (4.0 min)\n"}
+,{"stream_name":"stdout","time":1033.302900355,"data":"leave-one-region-out fold 4 done (4.7 min)\n"}
+,{"stream_name":"stdout","time":1033.30290524,"data":"leave-one-region-out fold 5 done (5.5 min)\n"}
+,{"stream_name":"stdout","time":1033.302910002,"data":"leave-one-region-out fold 6 done (6.2 min)\n"}
+,{"stream_name":"stdout","time":1033.302914789,"data":"leave-one-region-out fold 7 done (7.0 min)\n"}
+,{"stream_name":"stdout","time":1033.302919311,"data":"leave-one-region-out fold 8 done (7.6 min)\n"}
+,{"stream_name":"stdout","time":1033.302924022,"data":"leave-one-region-out finished (7.6 min)\n"}
+,{"stream_name":"stdout","time":1033.302928857,"data":"\n"}
+,{"stream_name":"stdout","time":1033.302932904,"data":"gpu1 exit 0\n"}
+,{"stream_name":"stdout","time":1033.302954942,"data":"leave-stations-out: device=cuda, 21 static features, 10 folds\n"}
+,{"stream_name":"stdout","time":1033.302958458,"data":"leave-stations-out fold 0 done (0.9 min)\n"}
+,{"stream_name":"stdout","time":1033.302961722,"data":"leave-stations-out fold 1 done (1.7 min)\n"}
+,{"stream_name":"stdout","time":1033.302964972,"data":"leave-stations-out fold 2 done (2.4 min)\n"}
+,{"stream_name":"stdout","time":1033.302968242,"data":"leave-stations-out fold 3 done (3.1 min)\n"}
+,{"stream_name":"stdout","time":1033.302971592,"data":"leave-stations-out fold 4 done (3.9 min)\n"}
+,{"stream_name":"stdout","time":1033.302976474,"data":"leave-stations-out fold 5 done (4.8 min)\n"}
+,{"stream_name":"stdout","time":1033.302992434,"data":"leave-stations-out fold 6 done (5.5 min)\n"}
+,{"stream_name":"stdout","time":1033.303010551,"data":"leave-stations-out fold 7 done (6.4 min)\n"}
+,{"stream_name":"stdout","time":1033.303014791,"data":"leave-stations-out fold 8 done (7.3 min)\n"}
+,{"stream_name":"stdout","time":1033.303021379,"data":"leave-stations-out fold 9 done (8.3 min)\n"}
+,{"stream_name":"stdout","time":1033.303025231,"data":"leave-stations-out finished (8.3 min)\n"}
+,{"stream_name":"stdout","time":1033.303029091,"data":"leave-one-region-out: device=cuda, 21 static features, 9 folds\n"}
+,{"stream_name":"stdout","time":1033.303032536,"data":"leave-one-region-out fold 0 done (1.1 min)\n"}
+,{"stream_name":"stdout","time":1033.303035673,"data":"leave-one-region-out fold 1 done (2.0 min)\n"}
+,{"stream_name":"stdout","time":1033.303038911,"data":"leave-one-region-out fold 2 done (2.8 min)\n"}
+,{"stream_name":"stdout","time":1033.303042096,"data":"leave-one-region-out fold 3 done (3.4 min)\n"}
+,{"stream_name":"stdout","time":1033.30304551,"data":"leave-one-region-out fold 4 done (4.4 min)\n"}
+,{"stream_name":"stdout","time":1033.303048745,"data":"leave-one-region-out fold 5 done (5.2 min)\n"}
+,{"stream_name":"stdout","time":1033.303051977,"data":"leave-one-region-out fold 6 done (6.2 min)\n"}
+,{"stream_name":"stdout","time":1033.303055167,"data":"leave-one-region-out fold 7 done (6.9 min)\n"}
+,{"stream_name":"stdout","time":1033.303058462,"data":"leave-one-region-out fold 8 done (7.6 min)\n"}
+,{"stream_name":"stdout","time":1033.303061627,"data":"leave-one-region-out finished (7.6 min)\n"}
+,{"stream_name":"stdout","time":1033.303064894,"data":"\n"}
+,{"stream_name":"stderr","time":1036.032119891,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1036.032147693,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1036.342491477,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1036.342515749,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1037.227031668,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1038.262583164,"data":"[NbConvertApp] Writing 284243 bytes to __results__.html\n"}
+]

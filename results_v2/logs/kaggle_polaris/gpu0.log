@@ -1,0 +1,12 @@
+leave-stations-out: 33084 rows, 117 features, 10 folds, bags=1, out=/kaggle/working/results_v2/tables/v3_tabpfn_bag_polaris/leave-stations-out
+leave-stations-out fold 0 bag 0 done (2.9 min)
+leave-stations-out fold 1 bag 0 done (5.6 min)
+leave-stations-out fold 2 bag 0 done (8.4 min)
+leave-stations-out fold 3 bag 0 done (12.4 min)
+leave-stations-out fold 4 bag 0 done (15.1 min)
+leave-stations-out fold 5 bag 0 done (17.9 min)
+leave-stations-out fold 6 bag 0 done (20.6 min)
+leave-stations-out fold 7 bag 0 done (23.4 min)
+leave-stations-out fold 8 bag 0 done (26.0 min)
+leave-stations-out fold 9 bag 0 done (28.8 min)
+leave-stations-out finished (28.8 min)
