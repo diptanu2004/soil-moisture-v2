@@ -1,0 +1,33 @@
+quantity,value
+SCAN stations requested (CONUS),192
+stations with any QC'd daily 5 cm value 2019-2023,186
+QC'd daily 5 cm values 2019-2023,251391
+Sentinel-1 station-days (all stations),50725
+Sentinel-1 station-days with in-situ 5 cm,34763
+Sentinel-1 station-days 2019 (S1A / S1B),7184 / 3557
+median days between S1 acquisitions 2019,6.0
+Sentinel-1 station-days 2020 (S1A / S1B),7437 / 4448
+median days between S1 acquisitions 2020,5.0
+Sentinel-1 station-days 2021 (S1A / S1B),7490 / 4304
+median days between S1 acquisitions 2021,5.0
+Sentinel-1 station-days 2022 (S1A / S1B),7963 / 0
+median days between S1 acquisitions 2022,7.0
+Sentinel-1 station-days 2023 (S1A / S1B),8342 / 0
+median days between S1 acquisitions 2023,7.0
+"anchor evaluation rows (>=20 labelled S1 days per station, both lags present)",33084
+anchor evaluation stations,184
+climate regions,9
+region N.Rockies&Plains: stations / rows,12 / 2254
+region Northeast: stations / rows,7 / 1296
+region Northwest: stations / rows,4 / 800
+region OhioValley: stations / rows,21 / 2834
+region South: stations / rows,40 / 6168
+region Southeast: stations / rows,29 / 4312
+region Southwest: stations / rows,43 / 10001
+region UpperMidwest: stations / rows,6 / 922
+region West: stations / rows,22 / 4497
+temporal split: training rows 2019-2021,21605
+temporal split: test rows 2022-2023,11479
+daily experiment stations (>=30 labelled days),186
+daily experiment labelled station-days,251391
+paper's 16 stations: labelled S1 days (NRCS coordinates),2966

@@ -1,0 +1,19 @@
+[1] improved v1 sat-only: 38 features, in-situ-derived columns: none
+[1] improved v2 sat-only: 77 features, in-situ-derived columns: none
+[1] paper16 fixed no-lag: 15 features, in-situ-derived columns: none
+[2] random80/20: folds checked (disjoint stations/regions/time where required)
+[2] leave-stations-out: folds checked (disjoint stations/regions/time where required)
+[2] leave-one-region-out: folds checked (disjoint stations/regions/time where required)
+[2] temporal(2022-23): folds checked (disjoint stations/regions/time where required)
+[3] top |r| of single satellite/reanalysis features with in-situ 5 cm SM (pooled):
+      smap_l4_wetness        0.729
+      smap_l4_sm             0.676
+      smap_l3e_sm            0.672
+      era5_swvl1             0.666
+      era5_swvl2             0.623
+      API_095                0.565
+      site_mean_precip2d     0.563
+      site_wet_frac          0.555
+      sand_fract             0.549
+      rain_30d               0.541
+[4] satellite-only trees, R2 by protocol (random split >> station split = station-identity leakage of random splits): random80/20: 0.897, leave-stations-out: 0.636, leave-one-region-out: 0.642, temporal(2022-23): 0.795
