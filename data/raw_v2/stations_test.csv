@@ -1,0 +1,3 @@
+sid,scan_id,station_triplet,name,state,region,lat,lon,network,set,paper16
+2031,2031,2031:IA:SCAN,Ames,IA,UpperMidwest,42.02,-93.73,SCAN,scan,True
+2006_pc,2006,2006:TX:SCAN,Bushland #1,TX,South,35.19,-102.1,SCAN,paper_coords,True

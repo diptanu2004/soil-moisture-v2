@@ -1,0 +1,209 @@
+sid,scan_id,station_triplet,name,state,region,lat,lon,network,set,paper16
+2057,2057,2057:AL:SCAN,AAMU-JTG,AL,Southeast,34.78,-86.55,SCAN,scan,False
+2078,2078,2078:AL:SCAN,Bragg Farm,AL,Southeast,34.89,-86.6,SCAN,scan,False
+2177,2177,2177:AL:SCAN,Broad Acres,AL,Southeast,32.28,-86.05,SCAN,scan,False
+2113,2113,2113:AL:SCAN,Cullman-NAHRC,AL,Southeast,34.19,-86.8,SCAN,scan,False
+2174,2174,2174:AL:SCAN,Dee River Ranch,AL,Southeast,33.11,-88.31,SCAN,scan,False
+2055,2055,2055:AL:SCAN,Hodges,AL,Southeast,34.45,-86.15,SCAN,scan,False
+2173,2173,2173:AL:SCAN,Isbell Farms,AL,Southeast,34.82,-87.99,SCAN,scan,False
+2180,2180,2180:AL:SCAN,Koptis Farms,AL,Southeast,30.52,-87.7,SCAN,scan,False
+2114,2114,2114:AL:SCAN,Livingston-UWA,AL,Southeast,32.61,-88.2,SCAN,scan,False
+2178,2178,2178:AL:SCAN,Morris Farms,AL,Southeast,32.41,-85.91,SCAN,scan,False
+2181,2181,2181:AL:SCAN,Perdido Riv Farms,AL,Southeast,31.11,-87.55,SCAN,scan,False
+2182,2182,2182:AL:SCAN,River Road Farms,AL,Southeast,31.02,-85.04,SCAN,scan,False
+2176,2176,2176:AL:SCAN,Selma,AL,Southeast,32.4,-86.89,SCAN,scan,True
+2056,2056,2056:AL:SCAN,Stanley Farm,AL,Southeast,34.43,-86.68,SCAN,scan,False
+2179,2179,2179:AL:SCAN,Sudduth Farms,AL,Southeast,34.18,-87.46,SCAN,scan,False
+2115,2115,2115:AL:SCAN,Tuskegee,AL,Southeast,32.43,-85.75,SCAN,scan,False
+2175,2175,2175:AL:SCAN,Wedowee,AL,Southeast,33.33,-85.52,SCAN,scan,False
+2053,2053,2053:AL:SCAN,Wtars,AL,Southeast,34.9,-86.53,SCAN,scan,False
+2083,2083,2083:AR:SCAN,Uapb Campus-PB,AR,South,34.25,-92.03,SCAN,scan,False
+2091,2091,2091:AR:SCAN,Uapb Dewitt,AR,South,34.28,-91.35,SCAN,scan,False
+2090,2090,2090:AR:SCAN,Uapb Point Remove,AR,South,35.21,-92.92,SCAN,scan,False
+2085,2085,2085:AR:SCAN,Uapb-Earle,AR,South,35.28,-90.45,SCAN,scan,False
+2030,2030,2030:AR:SCAN,Uapb-Lonoke Farm,AR,South,34.85,-91.88,SCAN,scan,False
+2084,2084,2084:AR:SCAN,Uapb-Marianna,AR,South,34.78,-90.82,SCAN,scan,False
+2026,2026,2026:AZ:SCAN,Walnut Gulch #1,AZ,Southwest,31.73,-110.05,SCAN,scan,False
+2214,2214,2214:CA:SCAN,Ash Valley,CA,West,41.05,-120.69,SCAN,scan,False
+2215,2215,2215:CA:SCAN,Bodie Hills,CA,West,38.26,-119.13,SCAN,scan,False
+2189,2189,2189:CA:SCAN,Cochora Ranch,CA,West,35.12,-119.6,SCAN,scan,False
+2190,2190,2190:CA:SCAN,Death Valley Jct,CA,West,36.33,-116.35,SCAN,scan,False
+2187,2187,2187:CA:SCAN,Deep Springs,CA,West,37.37,-117.97,SCAN,scan,False
+2183,2183,2183:CA:SCAN,Desert Center,CA,West,33.8,-115.31,SCAN,scan,False
+2191,2191,2191:CA:SCAN,Doe Ridge,CA,West,37.63,-118.83,SCAN,scan,False
+2192,2192,2192:CA:SCAN,Eagle Lake,CA,West,40.62,-120.72,SCAN,scan,False
+2185,2185,2185:CA:SCAN,Essex,CA,West,34.67,-115.17,SCAN,scan,False
+2184,2184,2184:CA:SCAN,Ford Dry Lake,CA,West,33.65,-115.1,SCAN,scan,False
+2218,2218,2218:CA:SCAN,French Gulch,CA,West,40.79,-122.55,SCAN,scan,False
+2149,2149,2149:CA:SCAN,Marble Creek,CA,West,37.78,-118.42,SCAN,scan,False
+2217,2217,2217:CA:SCAN,Monocline Ridge,CA,West,36.54,-120.55,SCAN,scan,False
+2186,2186,2186:CA:SCAN,Shadow Mtns,CA,West,35.47,-115.72,SCAN,scan,False
+2219,2219,2219:CA:SCAN,Stubblefield,CA,West,34.97,-119.48,SCAN,scan,False
+2197,2197,2197:CO:SCAN,CPER,CO,Southwest,40.82,-104.71,SCAN,scan,False
+2017,2017,2017:CO:SCAN,Nunn #1,CO,Southwest,40.87,-104.73,SCAN,scan,False
+2051,2051,2051:FL:SCAN,Everglades ARS,FL,Southeast,25.5,-80.55,SCAN,scan,False
+2012,2012,2012:FL:SCAN,Sellers Lake #1,FL,Southeast,29.1,-81.63,SCAN,scan,False
+2009,2009,2009:FL:SCAN,Wakulla #1,FL,Southeast,30.3,-84.42,SCAN,scan,False
+2027,2027,2027:GA:SCAN,Little River,GA,Southeast,31.5,-83.55,SCAN,scan,False
+2013,2013,2013:GA:SCAN,Watkinsville #1,GA,Southeast,33.88,-83.43,SCAN,scan,False
+2031,2031,2031:IA:SCAN,Ames,IA,UpperMidwest,42.02,-93.73,SCAN,scan,True
+2068,2068,2068:IA:SCAN,Shagbark Hills,IA,UpperMidwest,42.43,-95.77,SCAN,scan,True
+2148,2148,2148:ID:SCAN,Jordan Valley Cwma,ID,Northwest,42.95,-117.01,SCAN,scan,False
+674,674,674:ID:SCAN,Orchard Range Site,ID,Northwest,43.32,-116.0,SCAN,scan,False
+2004,2004,2004:IL:SCAN,Mason #1,IL,OhioValley,40.32,-89.9,SCAN,scan,True
+2092,2092,2092:KS:SCAN,Abrams,KS,South,37.13,-97.09,SCAN,scan,True
+2094,2094,2094:KS:SCAN,Centralia Lake,KS,South,39.7,-96.16,SCAN,scan,False
+2147,2147,2147:KS:SCAN,Ku-Nesa,KS,South,39.05,-95.19,SCAN,scan,True
+2093,2093,2093:KS:SCAN,Phillipsburg,KS,South,39.79,-99.33,SCAN,scan,True
+2079,2079,2079:KY:SCAN,Mammoth Cave,KY,OhioValley,37.19,-86.04,SCAN,scan,False
+2005,2005,2005:KY:SCAN,Princeton #1,KY,OhioValley,37.1,-87.83,SCAN,scan,False
+2049,2049,2049:MD:SCAN,Powder Mill,MD,Northeast,39.02,-76.85,SCAN,scan,False
+2002,2002,2002:MN:SCAN,Crescent Lake #1,MN,UpperMidwest,45.42,-93.95,SCAN,scan,False
+2050,2050,2050:MN:SCAN,Glacial Ridge,MN,UpperMidwest,47.72,-96.27,SCAN,scan,False
+2224,2224,2224:MO:SCAN,Busby Farm,MO,OhioValley,38.5,-92.25,SCAN,scan,False
+2223,2223,2223:MO:SCAN,Carver Farm,MO,OhioValley,38.53,-92.13,SCAN,scan,False
+2195,2195,2195:MO:SCAN,CMRB LTAR-MO,MO,OhioValley,39.23,-92.12,SCAN,scan,False
+2048,2048,2048:MO:SCAN,Dexter,MO,OhioValley,36.78,-89.93,SCAN,scan,True
+2220,2220,2220:MO:SCAN,Elsberry PMC,MO,OhioValley,39.15,-90.78,SCAN,scan,False
+2194,2194,2194:MO:SCAN,Journagan Ranch,MO,OhioValley,37.0,-92.26,SCAN,scan,False
+2225,2225,2225:MO:SCAN,Mark Twain HS,MO,OhioValley,39.51,-91.51,SCAN,scan,False
+2060,2060,2060:MO:SCAN,Mt Vernon,MO,OhioValley,37.07,-93.88,SCAN,scan,True
+2061,2061,2061:MO:SCAN,Powell Gardens,MO,OhioValley,38.87,-94.03,SCAN,scan,False
+2193,2193,2193:MO:SCAN,Schell-Osage,MO,OhioValley,37.99,-94.04,SCAN,scan,False
+2227,2227,2227:MO:SCAN,Shaw Nature Reserve,MO,OhioValley,38.48,-90.81,SCAN,scan,False
+2047,2047,2047:MO:SCAN,Spickard,MO,OhioValley,40.25,-93.72,SCAN,scan,True
+2226,2226,2226:MO:SCAN,Twin Pines Conservation Area,MO,OhioValley,36.99,-91.31,SCAN,scan,False
+2032,2032,2032:MS:SCAN,Beasley Lake,MS,South,33.38,-90.65,SCAN,scan,False
+2024,2024,2024:MS:SCAN,Goodwin Ck Pasture,MS,South,34.25,-89.87,SCAN,scan,False
+2025,2025,2025:MS:SCAN,Goodwin Ck Timber,MS,South,34.23,-89.9,SCAN,scan,False
+2110,2110,2110:MS:SCAN,Mayday,MS,South,32.86,-90.52,SCAN,scan,False
+2087,2087,2087:MS:SCAN,North Issaquena,MS,South,33.0,-91.06,SCAN,scan,False
+2033,2033,2033:MS:SCAN,Onward,MS,South,32.75,-90.93,SCAN,scan,False
+2046,2046,2046:MS:SCAN,Perthshire,MS,South,33.97,-90.9,SCAN,scan,False
+2109,2109,2109:MS:SCAN,Sandy Ridge,MS,South,33.66,-90.57,SCAN,scan,False
+2070,2070,2070:MS:SCAN,Scott,MS,South,33.62,-91.1,SCAN,scan,False
+2086,2086,2086:MS:SCAN,Silver City,MS,South,33.09,-90.51,SCAN,scan,False
+2064,2064,2064:MS:SCAN,Starkville,MS,South,33.63,-88.77,SCAN,scan,False
+2082,2082,2082:MS:SCAN,Tnc Fort Bayou,MS,South,30.47,-88.74,SCAN,scan,False
+2034,2034,2034:MS:SCAN,Tunica,MS,South,34.68,-90.42,SCAN,scan,False
+2035,2035,2035:MS:SCAN,Vance,MS,South,34.07,-90.35,SCAN,scan,False
+2117,2117,2117:MT:SCAN,Conrad Ag Rc,MT,N.Rockies&Plains,48.3,-111.92,SCAN,scan,False
+2019,2019,2019:MT:SCAN,Fort Assiniboine #1,MT,N.Rockies&Plains,48.48,-109.8,SCAN,scan,False
+2121,2121,2121:MT:SCAN,Jordan,MT,N.Rockies&Plains,47.52,-107.13,SCAN,scan,False
+581,581,581:MT:SCAN,Lindsay,MT,N.Rockies&Plains,47.21,-105.19,SCAN,scan,False
+2119,2119,2119:MT:SCAN,Moccasin,MT,N.Rockies&Plains,47.06,-109.95,SCAN,scan,False
+2120,2120,2120:MT:SCAN,Sidney,MT,N.Rockies&Plains,47.77,-104.25,SCAN,scan,False
+808,808,808:MT:SCAN,Table Mountain,MT,N.Rockies&Plains,45.8,-111.59,SCAN,scan,False
+2118,2118,2118:MT:SCAN,Violett,MT,N.Rockies&Plains,48.44,-111.18,SCAN,scan,False
+2008,2008,2008:NC:SCAN,Tidewater #1,NC,Southeast,35.87,-76.65,SCAN,scan,False
+2020,2020,2020:ND:SCAN,Mandan #1,ND,N.Rockies&Plains,46.77,-100.92,SCAN,scan,False
+2111,2111,2111:NE:SCAN,Johnson Farm,NE,N.Rockies&Plains,40.37,-101.72,SCAN,scan,False
+2001,2001,2001:NE:SCAN,Rogers Farm #1,NE,N.Rockies&Plains,40.85,-96.47,SCAN,scan,True
+2069,2069,2069:NH:SCAN,Hubbard Brook,NH,Northeast,43.93,-71.72,SCAN,scan,False
+2043,2043,2043:NH:SCAN,Mascoma River,NH,Northeast,43.78,-72.03,SCAN,scan,False
+2015,2015,2015:NM:SCAN,Adams Ranch #1,NM,Southwest,34.25,-105.42,SCAN,scan,False
+2172,2172,2172:NM:SCAN,Alcalde,NM,Southwest,36.09,-106.06,SCAN,scan,False
+2107,2107,2107:NM:SCAN,Crossroads,NM,Southwest,33.54,-103.24,SCAN,scan,False
+2168,2168,2168:NM:SCAN,Jornada Exp Range,NM,Southwest,32.56,-106.7,SCAN,scan,False
+2169,2169,2169:NM:SCAN,Los Lunas PMC,NM,Southwest,34.77,-106.76,SCAN,scan,False
+2171,2171,2171:NM:SCAN,Sevilleta,NM,Southwest,34.36,-106.69,SCAN,scan,False
+2108,2108,2108:NM:SCAN,Willow Wells,NM,Southwest,33.53,-103.63,SCAN,scan,False
+2216,2216,2216:NV:SCAN,Buckhorn,NV,West,40.88,-119.95,SCAN,scan,False
+2145,2145,2145:NV:SCAN,Charkiln,NV,West,36.37,-115.82,SCAN,scan,False
+2143,2143,2143:NV:SCAN,Hayford Peak,NV,West,36.66,-115.2,SCAN,scan,False
+2141,2141,2141:NV:SCAN,Kyle Canyon,NV,West,36.27,-115.61,SCAN,scan,False
+2146,2146,2146:NV:SCAN,Lovell Summit,NV,West,36.17,-115.61,SCAN,scan,False
+2116,2116,2116:NV:SCAN,Lovelock NNR,NV,West,40.03,-118.18,SCAN,scan,False
+2144,2144,2144:NV:SCAN,Pine Nut,NV,West,36.57,-115.2,SCAN,scan,False
+2170,2170,2170:NV:SCAN,Porter Canyon,NV,West,39.47,-117.62,SCAN,scan,False
+750,750,750:NV:SCAN,Sheldon,NV,West,41.9,-119.44,SCAN,scan,False
+2142,2142,2142:NV:SCAN,Trough Springs,NV,West,36.37,-115.78,SCAN,scan,False
+2011,2011,2011:NY:SCAN,Geneva #1,NY,Northeast,42.88,-77.03,SCAN,scan,False
+2014,2014,2014:OH:SCAN,Molly Caren #1,OH,OhioValley,39.95,-83.45,SCAN,scan,False
+2073,2073,2073:OH:SCAN,Sunleaf Nursery,OH,OhioValley,41.8,-81.08,SCAN,scan,False
+2022,2022,2022:OK:SCAN,Fort Reno #1,OK,South,35.55,-98.02,SCAN,scan,True
+2074,2074,2074:OR:SCAN,Lynhart Ranch,OR,Northwest,42.02,-121.39,SCAN,scan,False
+2028,2028,2028:PA:SCAN,Mahantango Ck,PA,Northeast,40.67,-76.67,SCAN,scan,False
+2036,2036,2036:PA:SCAN,Rock Springs Pa,PA,Northeast,40.72,-77.93,SCAN,scan,False
+2037,2037,2037:SC:SCAN,Pee Dee,SC,Southeast,34.3,-79.73,SCAN,scan,False
+2038,2038,2038:SC:SCAN,Youmans Farm,SC,Southeast,32.67,-81.2,SCAN,scan,False
+2072,2072,2072:SD:SCAN,Eros Data Center,SD,N.Rockies&Plains,43.74,-96.61,SCAN,scan,False
+2076,2076,2076:TN:SCAN,Allen Farms,TN,OhioValley,35.07,-86.89,SCAN,scan,False
+2077,2077,2077:TN:SCAN,Eastview Farm,TN,OhioValley,35.14,-86.19,SCAN,scan,False
+2075,2075,2075:TN:SCAN,McAllister Farm,TN,OhioValley,35.06,-86.59,SCAN,scan,False
+2207,2207,2207:TX:SCAN,Beaumont,TX,South,30.07,-94.29,SCAN,scan,False
+2006,2006,2006:TX:SCAN,Bushland #1,TX,South,35.17,-102.1,SCAN,scan,True
+2206,2206,2206:TX:SCAN,Kingsville,TX,South,27.55,-97.88,SCAN,scan,False
+2201,2201,2201:TX:SCAN,Knox City,TX,South,33.45,-99.87,SCAN,scan,False
+2106,2106,2106:TX:SCAN,Lehman,TX,South,33.63,-102.75,SCAN,scan,False
+2105,2105,2105:TX:SCAN,Levelland,TX,South,33.55,-102.37,SCAN,scan,True
+2228,2228,2228:TX:SCAN,Nacogdoches,TX,South,31.5,-94.76,SCAN,scan,False
+2016,2016,2016:TX:SCAN,Prairie View #1,TX,South,30.08,-95.98,SCAN,scan,False
+2104,2104,2104:TX:SCAN,Reese Center,TX,South,33.62,-102.04,SCAN,scan,True
+2199,2199,2199:TX:SCAN,Riesel,TX,South,31.48,-96.88,SCAN,scan,True
+2200,2200,2200:TX:SCAN,San Angelo,TX,South,31.55,-100.51,SCAN,scan,False
+2203,2203,2203:TX:SCAN,Stephenville,TX,South,32.25,-98.2,SCAN,scan,False
+2204,2204,2204:TX:SCAN,Uvalde,TX,South,29.22,-99.76,SCAN,scan,False
+2202,2202,2202:TX:SCAN,Vernon,TX,South,34.02,-99.25,SCAN,scan,False
+2205,2205,2205:TX:SCAN,Weslaco,TX,South,26.16,-97.96,SCAN,scan,False
+2138,2138,2138:UT:SCAN,Alkali Mesa,UT,Southwest,37.67,-109.36,SCAN,scan,False
+2135,2135,2135:UT:SCAN,Blue Creek,UT,Southwest,41.94,-112.43,SCAN,scan,False
+2151,2151,2151:UT:SCAN,Buffalo Jump,UT,Southwest,41.34,-111.19,SCAN,scan,False
+2136,2136,2136:UT:SCAN,Cache Junction,UT,Southwest,41.82,-111.98,SCAN,scan,False
+2161,2161,2161:UT:SCAN,Cave Valley,UT,Southwest,37.36,-113.12,SCAN,scan,False
+2150,2150,2150:UT:SCAN,Chicken Ridge,UT,Southwest,41.33,-111.3,SCAN,scan,False
+2125,2125,2125:UT:SCAN,Circleville,UT,Southwest,38.15,-112.25,SCAN,scan,False
+2167,2167,2167:UT:SCAN,Dugway,UT,Southwest,40.17,-113.02,SCAN,scan,False
+2130,2130,2130:UT:SCAN,Eastland,UT,Southwest,37.78,-109.17,SCAN,scan,False
+2128,2128,2128:UT:SCAN,Enterprise,UT,Southwest,37.63,-113.64,SCAN,scan,False
+2126,2126,2126:UT:SCAN,Ephraim,UT,Southwest,39.37,-111.58,SCAN,scan,False
+2165,2165,2165:UT:SCAN,Goshute,UT,Southwest,39.99,-114.0,SCAN,scan,False
+2152,2152,2152:UT:SCAN,Grantsville,UT,Southwest,40.59,-112.39,SCAN,scan,False
+2131,2131,2131:UT:SCAN,Green River,UT,Southwest,39.02,-110.16,SCAN,scan,False
+2160,2160,2160:UT:SCAN,Grouse Creek,UT,Southwest,41.78,-113.82,SCAN,scan,False
+2164,2164,2164:UT:SCAN,Hals Canyon,UT,Southwest,38.59,-113.75,SCAN,scan,False
+2166,2166,2166:UT:SCAN,Harms Way,UT,Southwest,38.31,-109.24,SCAN,scan,False
+2127,2127,2127:UT:SCAN,Holden,UT,Southwest,39.19,-112.4,SCAN,scan,False
+2155,2155,2155:UT:SCAN,Little Red Fox,UT,Southwest,40.18,-110.3,SCAN,scan,False
+2156,2156,2156:UT:SCAN,Manderfield,UT,Southwest,38.37,-112.64,SCAN,scan,False
+2140,2140,2140:UT:SCAN,Mccracken Mesa,UT,Southwest,37.45,-109.34,SCAN,scan,False
+2129,2129,2129:UT:SCAN,Milford,UT,Southwest,38.34,-113.01,SCAN,scan,False
+2133,2133,2133:UT:SCAN,Morgan,UT,Southwest,41.0,-111.69,SCAN,scan,False
+2134,2134,2134:UT:SCAN,Mountain Home,UT,Southwest,40.37,-110.41,SCAN,scan,False
+2137,2137,2137:UT:SCAN,Nephi,UT,Southwest,39.65,-111.87,SCAN,scan,False
+2157,2157,2157:UT:SCAN,Panguitch,UT,Southwest,37.87,-112.43,SCAN,scan,False
+2153,2153,2153:UT:SCAN,Park Valley,UT,Southwest,41.77,-113.29,SCAN,scan,False
+2132,2132,2132:UT:SCAN,Price,UT,Southwest,39.53,-110.81,SCAN,scan,False
+2159,2159,2159:UT:SCAN,Sand Hollow,UT,Southwest,37.11,-113.36,SCAN,scan,False
+2154,2154,2154:UT:SCAN,Split Mountain,UT,Southwest,40.39,-109.35,SCAN,scan,False
+2158,2158,2158:UT:SCAN,Spooky,UT,Southwest,37.51,-111.26,SCAN,scan,False
+2163,2163,2163:UT:SCAN,Tule Valley,UT,Southwest,39.24,-113.46,SCAN,scan,False
+2162,2162,2162:UT:SCAN,Vermillion,UT,Southwest,37.19,-112.19,SCAN,scan,False
+2139,2139,2139:UT:SCAN,West Summit,UT,Southwest,38.01,-109.13,SCAN,scan,False
+2039,2039,2039:VA:SCAN,N Piedmont Arec,VA,Southeast,38.23,-78.12,SCAN,scan,False
+2089,2089,2089:VA:SCAN,Reynolds Homestead,VA,Southeast,36.63,-80.13,SCAN,scan,False
+2088,2088,2088:VA:SCAN,Shenandoah,VA,Southeast,37.92,-79.2,SCAN,scan,False
+2040,2040,2040:VA:SCAN,Tidewater Arec,VA,Southeast,36.68,-76.77,SCAN,scan,False
+2042,2042,2042:VT:SCAN,Lye Brook,VT,Northeast,43.05,-73.03,SCAN,scan,False
+2041,2041,2041:VT:SCAN,Mount Mansfield,VT,Northeast,44.53,-72.83,SCAN,scan,False
+2198,2198,2198:WA:SCAN,Cook Farm Field D,WA,Northwest,46.78,-117.08,SCAN,scan,False
+2021,2021,2021:WA:SCAN,Lind #1,WA,Northwest,47.0,-118.57,SCAN,scan,False
+2196,2196,2196:WI:SCAN,UW Platteville,WI,UpperMidwest,42.71,-90.39,SCAN,scan,False
+2003,2003,2003:WI:SCAN,Wabeno #1,WI,UpperMidwest,45.47,-88.58,SCAN,scan,False
+2018,2018,2018:WY:SCAN,Torrington #1,WY,N.Rockies&Plains,42.07,-104.13,SCAN,scan,False
+2092_pc,2092,2092:KS:SCAN,Abrams,KS,South,39.88,-96.42,SCAN,paper_coords,True
+2031_pc,2031,2031:IA:SCAN,Ames,IA,UpperMidwest,42.01,-93.77,SCAN,paper_coords,True
+2006_pc,2006,2006:TX:SCAN,Bushland #1,TX,South,35.19,-102.1,SCAN,paper_coords,True
+2048_pc,2048,2048:MO:SCAN,Dexter,MO,OhioValley,36.79,-89.96,SCAN,paper_coords,True
+2022_pc,2022,2022:OK:SCAN,Fort Reno #1,OK,South,35.53,-98.03,SCAN,paper_coords,True
+2147_pc,2147,2147:KS:SCAN,Ku-Nesa,KS,South,39.12,-95.6,SCAN,paper_coords,True
+2105_pc,2105,2105:TX:SCAN,Levelland,TX,South,33.58,-102.37,SCAN,paper_coords,True
+2004_pc,2004,2004:IL:SCAN,Mason #1,IL,OhioValley,40.23,-89.87,SCAN,paper_coords,True
+2060_pc,2060,2060:MO:SCAN,Mt Vernon,MO,OhioValley,37.37,-93.83,SCAN,paper_coords,True
+2093_pc,2093,2093:KS:SCAN,Phillipsburg,KS,South,39.76,-99.32,SCAN,paper_coords,True
+2104_pc,2104,2104:TX:SCAN,Reese Center,TX,South,33.6,-102.04,SCAN,paper_coords,True
+2199_pc,2199,2199:TX:SCAN,Riesel,TX,South,31.47,-96.92,SCAN,paper_coords,True
+2001_pc,2001,2001:NE:SCAN,Rogers Farm #1,NE,N.Rockies&Plains,41.41,-96.47,SCAN,paper_coords,True
+2176_pc,2176,2176:AL:SCAN,Selma,AL,Southeast,32.42,-87.02,SCAN,paper_coords,True
+2047_pc,2047,2047:MO:SCAN,Spickard,MO,OhioValley,40.25,-93.6,SCAN,paper_coords,True
+2068_pc,2068,2068:IA:SCAN,Shagbark Hills,IA,UpperMidwest,41.67,-91.54,SCAN,paper_coords,True
